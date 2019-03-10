@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="0" name="riot_tests" skips="0" tests="1" time="3.283"><properties><property name="RIOT_VERSION" value="2019.04-devel-319-g00c71-pr/wip/pytest"/></properties><testcase classname="test.native" file="tests/01-run.py" line="6" name="test.native.tests_thread_flags_xtimer.tests.01-run.testfunc" time="3.2754530906677246"><system-out>/home/cladmi/git/work/RIOT/tests/thread_flags_xtimer/bin/native/tests_thread_flags_xtimer.elf  
+RIOT native interrupts/signals initialized.
+LED_RED_OFF
+LED_GREEN_ON
+RIOT native board initialized.
+RIOT native hardware initialization complete.
+
+main(): This is RIOT! (Version: buildtest)
+START
+Test setting thread flags from (x)timer callback
+You should see the message &apos;+++ timeout XX +++&apos; printed to the 
+screen 5 times, once every 100 milliseconds
+
++++ timeout  1 +++
++++ timeout  2 +++
++++ timeout  3 +++
++++ timeout  4 +++
++++ timeout  5 +++
+SUCCESS
+
+</system-out></testcase></testsuite>

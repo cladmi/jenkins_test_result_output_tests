@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="1" name="riot_tests" skips="0" tests="1" time="15.819"><properties><property name="RIOT_VERSION" value="2019.04-devel-319-g00c71-pr/wip/pytest"/></properties><testcase classname="test.iotlab-m3" file="tests/01-run.py" line="6" name="test.iotlab-m3.tests_thread_msg_seq.tests.01-run.testfunc" time="15.775873184204102"><failure message="pexpect.exceptions.TIMEOUT: START">child = &lt;pytest_child.CustomSpawn object at 0x7fda8dfdcbe0&gt;
+
+    def testfunc(child):
+&gt;       child.expect(&quot;START&quot;)
+
+tests/01-run.py:8: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = &lt;pytest_child.CustomSpawn object at 0x7fda8dfdcbe0&gt;, pattern = &apos;START&apos;
+args = (), kwargs = {}
+
+    def expect(self, pattern, *args, **kwargs):
+        # pylint:disable=arguments-differ
+        try:
+            return super().expect(pattern, *args, **kwargs)
+        except (pexpect.TIMEOUT, pexpect.EOF) as exc:
+            exc.orig_value = exc.value
+            exc.value = pattern
+&gt;           raise exc.with_traceback(None) from None
+E           pexpect.exceptions.TIMEOUT: START
+
+../../dist/tools/pytest_wrappers/test/pytest_child.py:131: TIMEOUT</failure><system-out>ssh -t harter@grenoble.iot-lab.info &apos;socat - tcp:m3-8.grenoble.iot-lab.info:20000&apos;
+
+</system-out></testcase></testsuite>
