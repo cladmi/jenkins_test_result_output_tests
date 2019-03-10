@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="0" name="native.gnu" skips="0" tests="1" time="4.966"><testcase classname="native.gnu.tests_xtimer_usleep.test.tests.01-run" file="tests/01-run.py" line="25" name="testfunc" time="4.948218822479248"><system-out>/home/cladmi/git/work/RIOT/tests/xtimer_usleep/bin/native/tests_xtimer_usleep.elf  
+RIOT native interrupts/signals initialized.
+LED_RED_OFF
+LED_GREEN_ON
+RIOT native board initialized.
+RIOT native hardware initialization complete.
+
+main(): This is RIOT! (Version: buildtest)
+Running test 5 times with 7 distinct sleep times
+Please hit any key and then ENTER to continue
+a
+Slept for 10077 us (expected: 10000 us) Offset: 77 us
+Slept for 50038 us (expected: 50000 us) Offset: 38 us
+Slept for 10266 us (expected: 10234 us) Offset: 32 us
+Slept for 56808 us (expected: 56780 us) Offset: 28 us
+Slept for 12160 us (expected: 12122 us) Offset: 38 us
+Slept for 98815 us (expected: 98765 us) Offset: 50 us
+Slept for 75027 us (expected: 75000 us) Offset: 27 us
+Slept for 10047 us (expected: 10000 us) Offset: 47 us
+Slept for 50054 us (expected: 50000 us) Offset: 54 us
+Slept for 10297 us (expected: 10234 us) Offset: 63 us
+Slept for 56836 us (expected: 56780 us) Offset: 56 us
+Slept for 12176 us (expected: 12122 us) Offset: 54 us
+Slept for 98845 us (expected: 98765 us) Offset: 80 us
+Slept for 75039 us (expected: 75000 us) Offset: 39 us
+Slept for 10024 us (expected: 10000 us) Offset: 24 us
+Slept for 50036 us (expected: 50000 us) Offset: 36 us
+Slept for 10259 us (expected: 10234 us) Offset: 25 us
+Slept for 56891 us (expected: 56780 us) Offset: 111 us
+Slept for 12257 us (expected: 12122 us) Offset: 135 us
+Slept for 98912 us (expected: 98765 us) Offset: 147 us
+Slept for 75061 us (expected: 75000 us) Offset: 61 us
+Slept for 10050 us (expected: 10000 us) Offset: 50 us
+Slept for 50045 us (expected: 50000 us) Offset: 45 us
+Slept for 10283 us (expected: 10234 us) Offset: 49 us
+Slept for 56821 us (expected: 56780 us) Offset: 41 us
+Slept for 12223 us (expected: 12122 us) Offset: 101 us
+Slept for 98815 us (expected: 98765 us) Offset: 50 us
+Slept for 75050 us (expected: 75000 us) Offset: 50 us
+Slept for 10020 us (expected: 10000 us) Offset: 20 us
+Slept for 50038 us (expected: 50000 us) Offset: 38 us
+Slept for 10255 us (expected: 10234 us) Offset: 21 us
+Slept for 56881 us (expected: 56780 us) Offset: 101 us
+Slept for 12198 us (expected: 12122 us) Offset: 76 us
+Slept for 98813 us (expected: 98765 us) Offset: 48 us
+Slept for 75078 us (expected: 75000 us) Offset: 78 us
+Test ran for 1567364 us
+
+</system-out></testcase></testsuite>
