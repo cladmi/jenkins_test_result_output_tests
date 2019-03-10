@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="0" name="native.gnu.tests_thread_basic" skips="0" tests="1" time="3.286"><testcase classname="native.gnu.tests_thread_basic.test.tests.01-run" file="tests/01-run.py" line="12" name="testfunc" time="3.276663064956665"><system-out>/home/cladmi/git/work/RIOT/tests/thread_basic/bin/native/tests_thread_basic.elf  
+<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="0" name="riot_tests" skips="0" tests="1" time="3.297"><testcase classname="native.gnu.tests_thread_basic.test.tests.01-run" file="tests/01-run.py" line="12" name="testfunc" package="native.gnu" time="3.286857843399048"><system-out>/home/cladmi/git/work/RIOT/tests/thread_basic/bin/native/tests_thread_basic.elf  
 RIOT native interrupts/signals initialized.
 LED_RED_OFF
 LED_GREEN_ON
