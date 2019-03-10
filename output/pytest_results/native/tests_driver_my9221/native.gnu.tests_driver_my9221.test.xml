@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="0" name="native.gnu" skips="0" tests="1" time="3.891"><testcase classname="native.gnu.tests_driver_my9221.test.tests.01-run" file="tests/01-run.py" line="13" name="testfunc" time="3.8830127716064453"><system-out>/home/cladmi/git/work/RIOT/tests/driver_my9221/bin/native/tests_driver_my9221.elf  
+RIOT native interrupts/signals initialized.
+LED_RED_OFF
+LED_GREEN_ON
+RIOT native board initialized.
+RIOT native hardware initialization complete.
+
+main(): This is RIOT! (Version: buildtest)
+[START]
+- light up all LEDs one by one.
+- light up all LEDs to 33%.
+- light up all LEDs to 66%.
+- light up all LEDs to 100%.
+- turn off all LEDs
+[SUCCESS]
+
+</system-out></testcase></testsuite>

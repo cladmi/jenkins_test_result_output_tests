@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="0" name="native" skips="0" tests="1" time="35.348"><testcase classname="native.tests_xtimer_msg.test.tests.01-run" file="tests/01-run.py" line="12" name="testfunc" time="35.33741068840027"><system-out>/home/cladmi/git/work/RIOT/tests/xtimer_msg/bin/native/tests_xtimer_msg.elf  
+RIOT native interrupts/signals initialized.
+LED_RED_OFF
+LED_GREEN_ON
+RIOT native board initialized.
+RIOT native hardware initialization complete.
+
+main(): This is RIOT! (Version: buildtest)
+This is thread 3
+sending 1st msg
+now=0:78 -&gt; every 2.0s: Hello World
+sending 2nd msg
+now=0:93 -&gt; every 5.0s: This is a Test
+This is thread 4
+sec=1 min=0 hour=0
+now=2:220 -&gt; every 2.0s: Hello World
+sec=2 min=0 hour=0
+sec=3 min=0 hour=0
+now=4:322 -&gt; every 2.0s: Hello World
+sec=4 min=0 hour=0
+now=5:182 -&gt; every 5.0s: This is a Test
+sec=5 min=0 hour=0
+now=6:474 -&gt; every 2.0s: Hello World
+sec=6 min=0 hour=0
+sec=7 min=0 hour=0
+now=8:759 -&gt; every 2.0s: Hello World
+sec=8 min=0 hour=0
+sec=9 min=0 hour=0
+now=10:287 -&gt; every 5.0s: This is a Test
+now=10:919 -&gt; every 2.0s: Hello World
+sec=10 min=0 hour=0
+sec=11 min=0 hour=0
+now=12:1090 -&gt; every 2.0s: Hello World
+sec=12 min=0 hour=0
+sec=13 min=0 hour=0
+now=14:1215 -&gt; every 2.0s: Hello World
+sec=14 min=0 hour=0
+now=15:452 -&gt; every 5.0s: This is a Test
+sec=15 min=0 hour=0
+now=16:1319 -&gt; every 2.0s: Hello World
+sec=16 min=0 hour=0
+sec=17 min=0 hour=0
+now=18:1414 -&gt; every 2.0s: Hello World
+sec=18 min=0 hour=0
+sec=19 min=0 hour=0
+now=20:661 -&gt; every 5.0s: This is a Test
+now=20:1459 -&gt; every 2.0s: Hello World
+sec=20 min=0 hour=0
+sec=21 min=0 hour=0
+now=22:1517 -&gt; every 2.0s: Hello World
+sec=22 min=0 hour=0
+sec=23 min=0 hour=0
+now=24:1600 -&gt; every 2.0s: Hello World
+sec=24 min=0 hour=0
+now=25:750 -&gt; every 5.0s: This is a Test
+sec=25 min=0 hour=0
+now=26:1715 -&gt; every 2.0s: Hello World
+sec=26 min=0 hour=0
+sec=27 min=0 hour=0
+now=28:1791 -&gt; every 2.0s: Hello World
+sec=28 min=0 hour=0
+sec=29 min=0 hour=0
+now=30:849 -&gt; every 5.0s: This is a Test
+now=30:1818 -&gt; every 2.0s: Hello World
+sec=30 min=0 hour=0
+sec=31 min=0 hour=0
+now=32:1879 -&gt; every 2.0s: Hello World
+sec=32 min=0 hour=0
+sec=33 min=0 hour=0
+now=34:1966 -&gt; every 2.0s: Hello World
+sec=34 min=0 hour=0
+now=35:941 -&gt; every 5.0s: This is a Test
+
+</system-out></testcase></testsuite>

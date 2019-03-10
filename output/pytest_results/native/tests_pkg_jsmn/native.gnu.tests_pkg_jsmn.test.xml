@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="0" name="native.gnu" skips="0" tests="1" time="3.369"><testcase classname="native.gnu.tests_pkg_jsmn.test.tests.01-run" file="tests/01-run.py" line="6" name="testfunc" time="3.360394239425659"><system-out>/home/cladmi/git/work/RIOT/tests/pkg_jsmn/bin/native/tests_pkg_jsmn.elf  
+RIOT native interrupts/signals initialized.
+LED_RED_OFF
+LED_GREEN_ON
+RIOT native board initialized.
+RIOT native hardware initialization complete.
+
+main(): This is RIOT! (Version: buildtest)
+- User: johndoe
+- Admin: false
+- UID: 1000
+- Groups:
+  * users
+  * wheel
+  * audio
+  * video
+
+</system-out></testcase></testsuite>

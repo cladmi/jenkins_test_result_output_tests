@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="0" name="native" skips="0" tests="1" time="3.357"><testcase classname="native.trace.test.tests.01-run" file="tests/01-run.py" line="12" name="testfunc" time="3.3488106727600098"><system-out>/home/cladmi/git/work/RIOT/tests/trace/bin/native/trace.elf  
+RIOT native interrupts/signals initialized.
+LED_RED_OFF
+LED_GREEN_ON
+RIOT native board initialized.
+RIOT native hardware initialization complete.
+
+main(): This is RIOT! (Version: buildtest)
+TRACE_SIZE: 4
+0x565fdaa9
+0x565fdb58
+0xf7cb227b
+0x565fdf51
+All tests successful
+
+</system-out></testcase></testsuite>

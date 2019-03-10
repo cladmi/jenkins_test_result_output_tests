@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="0" name="native.gnu" skips="0" tests="1" time="3.363"><testcase classname="native.gnu.tests_cb_mux_bench.test.tests.01-run" file="tests/01-run.py" line="12" name="testfunc" time="3.354902982711792"><system-out>/home/cladmi/git/work/RIOT/tests/cb_mux_bench/bin/native/tests_cb_mux_bench.elf  
+RIOT native interrupts/signals initialized.
+LED_RED_OFF
+LED_GREEN_ON
+RIOT native board initialized.
+RIOT native hardware initialization complete.
+
+main(): This is RIOT! (Version: buildtest)
+cb_mux benchmark application
+Populating cb_mux list with 20 items
+Finding the last list entry
+List walk time: 0 us
+Walk time less than threshold of 200 us
+[SUCCESS]
+
+</system-out></testcase></testsuite>

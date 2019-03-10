@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="0" name="native.gnu" skips="0" tests="1" time="3.977"><testcase classname="native.gnu.tests_periph_gpio.test.tests.02-bench" file="tests/02-bench.py" line="12" name="testfunc" time="3.967021942138672"><system-out>/home/cladmi/git/work/RIOT/tests/periph_gpio/bin/native/tests_periph_gpio.elf  
+RIOT native interrupts/signals initialized.
+LED_RED_OFF
+LED_GREEN_ON
+RIOT native board initialized.
+RIOT native hardware initialization complete.
+
+main(): This is RIOT! (Version: buildtest)
+GPIO peripheral driver test
+
+In this test, pins are specified by integer port and pin numbers.
+So if your platform has a pin PA01, it will be port=0 and pin=1,
+PC14 would be port=2 and pin=14 etc.
+
+NOTE: make sure the values you use exist on your platform! The
+      behavior for not existing ports/pins is not defined!
+&gt; bench 0 0
+bench 0 0
+
+GPIO driver run-time performance benchmark
+
+                 nop loop:      4199us  ---   0.004us per call  ---  238151940 calls per sec
+                 gpio_set:      6530us  ---   0.006us per call  ---  153139356 calls per sec
+               gpio_clear:      4095us  ---   0.004us per call  ---  244200244 calls per sec
+              gpio_toggle:      4127us  ---   0.004us per call  ---  242306760 calls per sec
+                gpio_read:      3478us  ---   0.003us per call  ---  287521564 calls per sec
+               gpio_write:      3567us  ---   0.003us per call  ---  280347631 calls per sec
+
+ --- DONE ---
+&gt; bench 0 1
+bench 0 1
+
+GPIO driver run-time performance benchmark
+
+                 nop loop:      3217us  ---   0.003us per call  ---  310848616 calls per sec
+                 gpio_set:      4930us  ---   0.004us per call  ---  202839756 calls per sec
+               gpio_clear:      4871us  ---   0.004us per call  ---  205296653 calls per sec
+              gpio_toggle:      3013us  ---   0.003us per call  ---  331895121 calls per sec
+                gpio_read:      3400us  ---   0.003us per call  ---  294117647 calls per sec
+               gpio_write:      3583us  ---   0.003us per call  ---  279095729 calls per sec
+
+ --- DONE ---
+&gt; bench 0 2
+bench 0 2
+
+GPIO driver run-time performance benchmark
+
+                 nop loop:      3184us  ---   0.003us per call  ---  314070351 calls per sec
+                 gpio_set:      5712us  ---   0.005us per call  ---  175070028 calls per sec
+               gpio_clear:      4872us  ---   0.004us per call  ---  205254515 calls per sec
+              gpio_toggle:      3966us  ---   0.003us per call  ---  252143217 calls per sec
+                gpio_read:      3296us  ---   0.003us per call  ---  303398058 calls per sec
+               gpio_write:      3539us  ---   0.003us per call  ---  282565696 calls per sec
+
+ --- DONE ---
+&gt; bench 0 3
+bench 0 3
+
+GPIO driver run-time performance benchmark
+
+                 nop loop:      4641us  ---   0.004us per call  ---  215470803 calls per sec
+                 gpio_set:      7739us  ---   0.007us per call  ---  129215660 calls per sec
+               gpio_clear:      4893us  ---   0.004us per call  ---  204373594 calls per sec
+              gpio_toggle:      2893us  ---   0.002us per call  ---  345661942 calls per sec
+                gpio_read:      3352us  ---   0.003us per call  ---  298329355 calls per sec
+               gpio_write:      3740us  ---   0.003us per call  ---  267379679 calls per sec
+
+ --- DONE ---
+&gt; bench 0 4
+bench 0 4
+
+GPIO driver run-time performance benchmark
+
+                 nop loop:      1872us  ---   0.001us per call  ---  534188034 calls per sec
+                 gpio_set:      4661us  ---   0.004us per call  ---  214546234 calls per sec
+               gpio_clear:      4938us  ---   0.004us per call  ---  202511138 calls per sec
+              gpio_toggle:      3442us  ---   0.003us per call  ---  290528762 calls per sec
+                gpio_read:      3117us  ---   0.003us per call  ---  320821302 calls per sec
+               gpio_write:      3619us  ---   0.003us per call  ---  276319425 calls per sec
+
+ --- DONE ---
+&gt; bench 0 5
+bench 0 5
+
+GPIO driver run-time performance benchmark
+
+                 nop loop:      3409us  ---   0.003us per call  ---  293341155 calls per sec
+                 gpio_set:      4825us  ---   0.004us per call  ---  207253886 calls per sec
+               gpio_clear:      4645us  ---   0.004us per call  ---  215285252 calls per sec
+              gpio_toggle:      4625us  ---   0.004us per call  ---  216216216 calls per sec
+                gpio_read:      4112us  ---   0.004us per call  ---  243190661 calls per sec
+               gpio_write:      4045us  ---   0.004us per call  ---  247218788 calls per sec
+
+ --- DONE ---
+&gt; bench 0 6
+bench 0 6
+
+GPIO driver run-time performance benchmark
+
+                 nop loop:      2250us  ---   0.002us per call  ---  444444444 calls per sec
+                 gpio_set:      3375us  ---   0.003us per call  ---  296296296 calls per sec
+               gpio_clear:      4345us  ---   0.004us per call  ---  230149597 calls per sec
+              gpio_toggle:      3320us  ---   0.003us per call  ---  301204819 calls per sec
+                gpio_read:      3471us  ---   0.003us per call  ---  288101411 calls per sec
+               gpio_write:      3486us  ---   0.003us per call  ---  286861732 calls per sec
+
+ --- DONE ---
+&gt; bench 0 7
+bench 0 7
+
+GPIO driver run-time performance benchmark
+
+                 nop loop:      2236us  ---   0.002us per call  ---  447227191 calls per sec
+                 gpio_set:      4408us  ---   0.004us per call  ---  226860254 calls per sec
+               gpio_clear:      4496us  ---   0.004us per call  ---  222419928 calls per sec
+              gpio_toggle:      5483us  ---   0.005us per call  ---  182381907 calls per sec
+                gpio_read:      3411us  ---   0.003us per call  ---  293169158 calls per sec
+               gpio_write:      3479us  ---   0.003us per call  ---  287438919 calls per sec
+
+ --- DONE ---
+&gt; Benchmark was successful
+
+</system-out></testcase></testsuite>

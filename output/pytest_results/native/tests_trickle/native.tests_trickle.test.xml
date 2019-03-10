@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="0" name="native" skips="0" tests="1" time="3.658"><testcase classname="native.tests_trickle.test.tests.01-run" file="tests/01-run.py" line="12" name="testfunc" time="3.6447534561157227"><system-out>/home/cladmi/git/work/RIOT/tests/trickle/bin/native/tests_trickle.elf  
+RIOT native interrupts/signals initialized.
+LED_RED_OFF
+LED_GREEN_ON
+RIOT native board initialized.
+RIOT native hardware initialization complete.
+
+main(): This is RIOT! (Version: buildtest)
+[START]
+now = 47049, t = 47
+now = 131141, t = 81
+now = 338216, t = 188
+now = 588279, t = 238
+now = 1487365, t = 737
+[TRICKLE_RESET]
+now = 1500465, t = 13
+now = 1529549, t = 26
+now = 1594715, t = 59
+now = 1710905, t = 111
+now = 1906010, t = 178
+now = 2366104, t = 382
+now = 3367181, t = 871
+[SUCCESS]
+
+</system-out></testcase></testsuite>
