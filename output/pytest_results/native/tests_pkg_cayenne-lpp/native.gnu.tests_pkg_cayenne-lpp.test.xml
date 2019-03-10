@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="1" name="native.gnu" skips="0" tests="1" time="13.379"><testcase classname="native.gnu.tests_pkg_cayenne-lpp.test.tests.01-run" file="tests/01-run.py" line="8" name="testfunc" time="13.343559741973877"><failure message="pexpect.exceptions.TIMEOUT: Result: [0-9A-Z]+ SUCCESS">child = &lt;pytest_child.CustomSpawn object at 0x7fb7277062e8&gt;
+<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="1" name="native.gnu.tests_pkg_cayenne-lpp" skips="0" tests="1" time="13.341"><testcase classname="native.gnu.tests_pkg_cayenne-lpp.test.tests.01-run" file="tests/01-run.py" line="8" name="testfunc" time="13.304214239120483"><failure message="pexpect.exceptions.TIMEOUT: Result: [0-9A-Z]+ SUCCESS">child = &lt;pytest_child.CustomSpawn object at 0x7f95530f3550&gt;
 
     def testfunc(child):
         for test in range(NB_TESTS):
@@ -8,7 +8,7 @@
 tests/01-run.py:12: 
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = &lt;pytest_child.CustomSpawn object at 0x7fb7277062e8&gt;
+self = &lt;pytest_child.CustomSpawn object at 0x7f95530f3550&gt;
 pattern = &apos;Result: [0-9A-Z]+ SUCCESS&apos;, args = (), kwargs = {}
 
     def expect(self, pattern, *args, **kwargs):

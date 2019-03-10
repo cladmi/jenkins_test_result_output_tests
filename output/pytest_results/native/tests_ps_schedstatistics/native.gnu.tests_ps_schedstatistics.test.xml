@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="0" name="native.gnu" skips="0" tests="1" time="3.487"><testcase classname="native.gnu.tests_ps_schedstatistics.test.tests.01-run" file="tests/01-run.py" line="57" name="testfunc" time="3.471169948577881"><system-out>/home/cladmi/git/work/RIOT/tests/ps_schedstatistics/bin/native/tests_ps_schedstatistics.elf  
+<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="0" name="native.gnu.tests_ps_schedstatistics" skips="0" tests="1" time="3.463"><testcase classname="native.gnu.tests_ps_schedstatistics.test.tests.01-run" file="tests/01-run.py" line="57" name="testfunc" time="3.4504756927490234"><system-out>/home/cladmi/git/work/RIOT/tests/ps_schedstatistics/bin/native/tests_ps_schedstatistics.elf  
 RIOT native interrupts/signals initialized.
 LED_RED_OFF
 LED_GREEN_ON
@@ -22,14 +22,14 @@ ps                   Prints information about running threads.
 &gt; ps
 ps
 	pid | name                 | state    Q | pri | stack  ( used) | base addr  | current     | runtime  | switches
-	  - | isr_stack            | -        - |   - |   8192 (   -1) | 0x565d6660 | 0x565d6660
-	  1 | idle                 | pending  Q |  15 |   8192 (  584) | 0x565d4140 | 0x565d5fa0  | 31.756% |         1
-	  2 | main                 | running  Q |   7 |  12288 ( 3104) | 0x565d1140 | 0x565d3fa0  | 66.139% |      3409
-	  3 | thread               | bl rx    _ |   6 |   8192 ( 2380) | 0x565c7120 | 0x565c8f80  |  0.389% |      1363
-	  4 | thread               | bl mutex _ |   6 |   8192 ( 2380) | 0x565c9120 | 0x565caf80  |  0.433% |      1362
-	  5 | thread               | bl rx    _ |   6 |   8192 ( 2380) | 0x565cb120 | 0x565ccf80  |  0.451% |      1361
-	  6 | thread               | bl rx    _ |   6 |   8192 ( 2380) | 0x565cd120 | 0x565cef80  |  0.479% |      1361
-	  7 | thread               | bl rx    _ |   6 |   8192 ( 2380) | 0x565cf120 | 0x565d0f80  |  0.350% |      1361
+	  - | isr_stack            | -        - |   - |   8192 (   -1) | 0x565ee660 | 0x565ee660
+	  1 | idle                 | pending  Q |  15 |   8192 (  584) | 0x565ec140 | 0x565edfa0  | 32.401% |         1
+	  2 | main                 | running  Q |   7 |  12288 ( 3104) | 0x565e9140 | 0x565ebfa0  | 65.512% |      3284
+	  3 | thread               | bl rx    _ |   6 |   8192 ( 2380) | 0x565df120 | 0x565e0f80  |  0.387% |      1313
+	  4 | thread               | bl mutex _ |   6 |   8192 ( 2380) | 0x565e1120 | 0x565e2f80  |  0.422% |      1312
+	  5 | thread               | bl rx    _ |   6 |   8192 ( 2380) | 0x565e3120 | 0x565e4f80  |  0.437% |      1311
+	  6 | thread               | bl rx    _ |   6 |   8192 ( 2380) | 0x565e5120 | 0x565e6f80  |  0.480% |      1311
+	  7 | thread               | bl rx    _ |   6 |   8192 ( 2380) | 0x565e7120 | 0x565e8f80  |  0.358% |      1311
 	    | SUM                  |            |     |  69632 (15588)
 &gt; 
 </system-out></testcase></testsuite>

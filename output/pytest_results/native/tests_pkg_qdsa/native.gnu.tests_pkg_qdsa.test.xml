@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="0" name="native.gnu" skips="0" tests="1" time="3.348"><testcase classname="native.gnu.tests_pkg_qdsa.test.tests.01-run" file="tests/01-run.py" line="12" name="testfunc" time="3.3319687843322754"><system-out>/home/cladmi/git/work/RIOT/tests/pkg_qdsa/bin/native/tests_pkg_qdsa.elf  
+<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="0" name="native.gnu.tests_pkg_qdsa" skips="0" tests="1" time="3.281"><testcase classname="native.gnu.tests_pkg_qdsa.test.tests.01-run" file="tests/01-run.py" line="12" name="testfunc" time="3.2741029262542725"><system-out>/home/cladmi/git/work/RIOT/tests/pkg_qdsa/bin/native/tests_pkg_qdsa.elf  
 RIOT native interrupts/signals initialized.
 LED_RED_OFF
 LED_GREEN_ON

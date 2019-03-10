@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="0" name="native.gnu" skips="0" tests="1" time="3.331"><testcase classname="native.gnu.tests_gnrc_netif.test.tests.01-run" file="tests/01-run.py" line="13" name="testfunc" time="3.3171870708465576"><system-out>/home/cladmi/git/work/RIOT/tests/gnrc_netif/bin/native/tests_gnrc_netif.elf  
+<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="0" name="native.gnu.tests_gnrc_netif" skips="0" tests="1" time="3.286"><testcase classname="native.gnu.tests_gnrc_netif.test.tests.01-run" file="tests/01-run.py" line="13" name="testfunc" time="3.276127815246582"><system-out>/home/cladmi/git/work/RIOT/tests/gnrc_netif/bin/native/tests_gnrc_netif.elf  
 RIOT native interrupts/signals initialized.
 LED_RED_OFF
 LED_GREEN_ON
@@ -68,7 +68,7 @@ pktdump dumping IEEE 802.15.4 packet with empty payload
 PKTDUMP: data received:
 ~~ SNIP  0 - size:   0 byte, type: NETTYPE_UNDEF (0)
 00000000~~ SNIP  1 - size:  24 byte, type: NETTYPE_NETIF (-1)
-if_pid: 7  rssi: 19944  lqi: 97
+if_pid: 7  rssi: 32232  lqi: 100
 flags: 0x0
 src_l2addr: 3E:E6:B5:0F:19:22:FD:0B
 dst_l2addr: 3E:E6:B5:0F:19:22:FD:0A
@@ -88,7 +88,7 @@ PKTDUMP: data received:
 ~~ SNIP  0 - size:   4 byte, type: NETTYPE_UNDEF (0)
 00000000  12  34  45  56
 ~~ SNIP  1 - size:  24 byte, type: NETTYPE_NETIF (-1)
-if_pid: 7  rssi: 19944  lqi: 97
+if_pid: 7  rssi: 32232  lqi: 100
 flags: 0x0
 src_l2addr: 3E:E6:B5:0F:19:22:FD:0B
 dst_l2addr: 3E:E6:B5:0F:19:22:FD:0A

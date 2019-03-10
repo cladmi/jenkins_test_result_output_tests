@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><testsuite errors="1" failures="0" name="native.gnu" skips="0" tests="1" time="0.058"><testcase classname="native.gnu.socket_zep.test.tests.01-run" file="tests/01-run.py" line="27" name="testfunc" time="0.0015347003936767578"><error message="test setup failure">request = &lt;SubRequest &apos;child&apos; for &lt;Function &apos;testfunc&apos;&gt;&gt;, timeout = None
+<?xml version="1.0" encoding="utf-8"?><testsuite errors="1" failures="0" name="native.gnu.socket_zep" skips="0" tests="1" time="0.031"><testcase classname="native.gnu.socket_zep.test.tests.01-run" file="tests/01-run.py" line="27" name="testfunc" time="0.0007698535919189453"><error message="test setup failure">request = &lt;SubRequest &apos;child&apos; for &lt;Function &apos;testfunc&apos;&gt;&gt;, timeout = None
 logconsole = True
 
     @pytest.fixture(scope=&quot;module&quot;)

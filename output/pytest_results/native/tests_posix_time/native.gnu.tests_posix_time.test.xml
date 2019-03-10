@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="0" name="native.gnu" skips="0" tests="1" time="18.373"><testcase classname="native.gnu.tests_posix_time.test.tests.01-run" file="tests/01-run.py" line="22" name="testfunc" time="18.359507083892822"><system-out>/home/cladmi/git/work/RIOT/tests/posix_time/bin/native/tests_posix_time.elf  
+<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="0" name="native.gnu.tests_posix_time" skips="0" tests="1" time="18.344"><testcase classname="native.gnu.tests_posix_time.test.tests.01-run" file="tests/01-run.py" line="22" name="testfunc" time="18.331342935562134"><system-out>/home/cladmi/git/work/RIOT/tests/posix_time/bin/native/tests_posix_time.elf  
 RIOT native interrupts/signals initialized.
 LED_RED_OFF
 LED_GREEN_ON

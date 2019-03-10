@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="0" name="native.gnu" skips="0" tests="1" time="5.704"><testcase classname="native.gnu.tests_struct_tm_utility.test.tests.01-run" file="tests/01-run.py" line="112" name="testfunc" time="5.690008163452148"><system-out>
+<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="0" name="native.gnu.tests_struct_tm_utility" skips="0" tests="1" time="5.649"><testcase classname="native.gnu.tests_struct_tm_utility.test.tests.01-run" file="tests/01-run.py" line="112" name="testfunc" time="5.639910936355591"><system-out>
 /home/cladmi/git/work/RIOT/tests/struct_tm_utility/bin/native/tests_struct_tm_utility.elf  
 RIOT native interrupts/signals initialized.
 LED_RED_OFF

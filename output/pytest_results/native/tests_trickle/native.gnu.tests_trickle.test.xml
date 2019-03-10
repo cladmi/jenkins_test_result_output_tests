@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="0" name="native.gnu" skips="0" tests="1" time="3.336"><testcase classname="native.gnu.tests_trickle.test.tests.01-run" file="tests/01-run.py" line="12" name="testfunc" time="3.3237392902374268"><system-out>/home/cladmi/git/work/RIOT/tests/trickle/bin/native/tests_trickle.elf  
+<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="0" name="native.gnu.tests_trickle" skips="0" tests="1" time="3.297"><testcase classname="native.gnu.tests_trickle.test.tests.01-run" file="tests/01-run.py" line="12" name="testfunc" time="3.2769224643707275"><system-out>/home/cladmi/git/work/RIOT/tests/trickle/bin/native/tests_trickle.elf  
 RIOT native interrupts/signals initialized.
 LED_RED_OFF
 LED_GREEN_ON
@@ -7,19 +7,19 @@ RIOT native hardware initialization complete.
 
 main(): This is RIOT! (Version: buildtest)
 [START]
-now = 12048, t = 12
-now = 47182, t = 31
-now = 106241, t = 58
-now = 210394, t = 98
-now = 368516, t = 128
+now = 30062, t = 30
+now = 67242, t = 35
+now = 185362, t = 89
+now = 425500, t = 201
+now = 801578, t = 321
 [TRICKLE_RESET]
-now = 376686, t = 8
-now = 415814, t = 31
-now = 476979, t = 60
-now = 555114, t = 74
-now = 752169, t = 143
-now = 1218207, t = 353
-now = 2012276, t = 635
+now = 811660, t = 10
+now = 848718, t = 31
+now = 901833, t = 52
+now = 1008881, t = 95
+now = 1295940, t = 254
+now = 1710062, t = 412
+now = 2810098, t = 1000
 [SUCCESS]
 
 </system-out></testcase></testsuite>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="0" name="native.gnu" skips="0" tests="1" time="3.309"><testcase classname="native.gnu.tests_gnrc_sock_udp.test.tests.01-run" file="tests/01-run.py" line="12" name="testfunc" time="3.2905330657958984"><system-out>/home/cladmi/git/work/RIOT/tests/gnrc_sock_udp/bin/native/tests_gnrc_sock_udp.elf  
+<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="0" name="native.gnu.tests_gnrc_sock_udp" skips="0" tests="1" time="3.279"><testcase classname="native.gnu.tests_gnrc_sock_udp.test.tests.01-run" file="tests/01-run.py" line="12" name="testfunc" time="3.2704479694366455"><system-out>/home/cladmi/git/work/RIOT/tests/gnrc_sock_udp/bin/native/tests_gnrc_sock_udp.elf  
 RIOT native interrupts/signals initialized.
 LED_RED_OFF
 LED_GREEN_ON

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="0" name="native.gnu" skips="0" tests="1" time="3.448"><testcase classname="native.gnu.tests_xtimer_usleep_short.test.tests.01-run" file="tests/01-run.py" line="13" name="testfunc" time="3.4352312088012695"><system-out>/home/cladmi/git/work/RIOT/tests/xtimer_usleep_short/bin/native/tests_xtimer_usleep_short.elf  
+<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="0" name="native.gnu.tests_xtimer_usleep_short" skips="0" tests="1" time="3.417"><testcase classname="native.gnu.tests_xtimer_usleep_short.test.tests.01-run" file="tests/01-run.py" line="13" name="testfunc" time="3.403646469116211"><system-out>/home/cladmi/git/work/RIOT/tests/xtimer_usleep_short/bin/native/tests_xtimer_usleep_short.elf  
 RIOT native interrupts/signals initialized.
 LED_RED_OFF
 LED_GREEN_ON

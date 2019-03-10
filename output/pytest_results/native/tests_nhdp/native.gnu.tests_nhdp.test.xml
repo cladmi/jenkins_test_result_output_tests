@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="0" name="native.gnu" skips="0" tests="1" time="3.314"><testcase classname="native.gnu.tests_nhdp.test.tests.01-run" file="tests/01-run.py" line="12" name="testfunc" time="3.2986295223236084"><system-out>/home/cladmi/git/work/RIOT/tests/nhdp/bin/native/tests_nhdp.elf  
+<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="0" name="native.gnu.tests_nhdp" skips="0" tests="1" time="3.274"><testcase classname="native.gnu.tests_nhdp.test.tests.01-run" file="tests/01-run.py" line="12" name="testfunc" time="3.2646539211273193"><system-out>/home/cladmi/git/work/RIOT/tests/nhdp/bin/native/tests_nhdp.elf  
 RIOT native interrupts/signals initialized.
 LED_RED_OFF
 LED_GREEN_ON

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="0" name="native.gnu" skips="0" tests="1" time="11.555"><testcase classname="native.gnu.tests_mutex_unlock_and_sleep.test.tests.01-run" file="tests/01-run.py" line="12" name="testfunc" time="11.540869235992432"><system-out>/home/cladmi/git/work/RIOT/tests/mutex_unlock_and_sleep/bin/native/tests_mutex_unlock_and_sleep.elf  
+<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="0" name="native.gnu.tests_mutex_unlock_and_sleep" skips="0" tests="1" time="10.307"><testcase classname="native.gnu.tests_mutex_unlock_and_sleep.test.tests.01-run" file="tests/01-run.py" line="12" name="testfunc" time="10.295334339141846"><system-out>/home/cladmi/git/work/RIOT/tests/mutex_unlock_and_sleep/bin/native/tests_mutex_unlock_and_sleep.elf  
 RIOT native interrupts/signals initialized.
 LED_RED_OFF
 LED_GREEN_ON

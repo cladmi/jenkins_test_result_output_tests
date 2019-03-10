@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="0" name="native.gnu" skips="0" tests="1" time="10.341"><testcase classname="native.gnu.tests_xtimer_hang.test.tests.01-run" file="tests/01-run.py" line="12" name="testfunc" time="10.326951503753662"><system-out>/home/cladmi/git/work/RIOT/tests/xtimer_hang/bin/native/tests_xtimer_hang.elf  
+<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="0" name="native.gnu.tests_xtimer_hang" skips="0" tests="1" time="10.274"><testcase classname="native.gnu.tests_xtimer_hang.test.tests.01-run" file="tests/01-run.py" line="12" name="testfunc" time="10.262356758117676"><system-out>/home/cladmi/git/work/RIOT/tests/xtimer_hang/bin/native/tests_xtimer_hang.elf  
 RIOT native interrupts/signals initialized.
 LED_RED_OFF
 LED_GREEN_ON

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="0" name="native.gnu" skips="0" tests="1" time="3.339"><testcase classname="native.gnu.tests_xtimer_reset.test.tests.01-run" file="tests/01-run.py" line="12" name="testfunc" time="3.3262457847595215"><system-out>/home/cladmi/git/work/RIOT/tests/xtimer_reset/bin/native/tests_xtimer_reset.elf  
+<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="0" name="native.gnu.tests_xtimer_reset" skips="0" tests="1" time="3.286"><testcase classname="native.gnu.tests_xtimer_reset.test.tests.01-run" file="tests/01-run.py" line="12" name="testfunc" time="3.2786145210266113"><system-out>/home/cladmi/git/work/RIOT/tests/xtimer_reset/bin/native/tests_xtimer_reset.elf  
 RIOT native interrupts/signals initialized.
 LED_RED_OFF
 LED_GREEN_ON
@@ -8,8 +8,8 @@ RIOT native hardware initialization complete.
 main(): This is RIOT! (Version: buildtest)
 This test tests re-setting of an already active timer.
 It should print three times &quot;now=&lt;value&gt;&quot;, with values approximately 100ms (100000us) apart.
-now=54
-now=100092
+now=26
+now=100142
 now=200093
 Test completed!
 

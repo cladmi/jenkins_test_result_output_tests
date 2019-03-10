@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="1" name="native.gnu" skips="0" tests="1" time="3.509"><testcase classname="native.gnu.tests_netstats_l2.test.tests.01-run" file="tests/01-run.py" line="13" name="testfunc" time="3.4589898586273193"><failure message="pexpect.exceptions.EOF:        Statistics for Layer 2">child = &lt;pytest_child.CustomSpawn object at 0x7f5a252aa400&gt;
+<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="1" name="native.gnu.tests_netstats_l2" skips="0" tests="1" time="3.455"><testcase classname="native.gnu.tests_netstats_l2.test.tests.01-run" file="tests/01-run.py" line="13" name="testfunc" time="3.4108598232269287"><failure message="pexpect.exceptions.EOF:        Statistics for Layer 2">child = &lt;pytest_child.CustomSpawn object at 0x7fab5d709a20&gt;
 
     def testfunc(child):
         child.sendline(&apos;ifconfig&apos;)
@@ -7,7 +7,7 @@
 tests/01-run.py:16: 
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = &lt;pytest_child.CustomSpawn object at 0x7f5a252aa400&gt;
+self = &lt;pytest_child.CustomSpawn object at 0x7fab5d709a20&gt;
 pattern = &apos;       Statistics for Layer 2&apos;, args = (), kwargs = {}
 
     def expect(self, pattern, *args, **kwargs):

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="0" name="native.gnu" skips="0" tests="1" time="3.335"><testcase classname="native.gnu.tests_gnrc_ipv6_nib.test.tests.01-run" file="tests/01-run.py" line="13" name="testfunc" time="3.3191025257110596"><system-out>/home/cladmi/git/work/RIOT/tests/gnrc_ipv6_nib/bin/native/tests_gnrc_ipv6_nib.elf  
+<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="0" name="native.gnu.tests_gnrc_ipv6_nib" skips="0" tests="1" time="3.280"><testcase classname="native.gnu.tests_gnrc_ipv6_nib.test.tests.01-run" file="tests/01-run.py" line="13" name="testfunc" time="3.2701148986816406"><system-out>/home/cladmi/git/work/RIOT/tests/gnrc_ipv6_nib/bin/native/tests_gnrc_ipv6_nib.elf  
 RIOT native interrupts/signals initialized.
 LED_RED_OFF
 LED_GREEN_ON

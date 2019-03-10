@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="0" name="native.gnu" skips="0" tests="1" time="9.033"><testcase classname="native.gnu.tests_bench_runtime_coreapis.test.tests.01-run" file="tests/01-run.py" line="17" name="testfunc" time="9.025184154510498"><system-out>/home/cladmi/git/work/RIOT/tests/bench_runtime_coreapis/bin/native/tests_bench_runtime_coreapis.elf  
+<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="0" name="native.gnu.tests_bench_runtime_coreapis" skips="0" tests="1" time="8.925"><testcase classname="native.gnu.tests_bench_runtime_coreapis.test.tests.01-run" file="tests/01-run.py" line="17" name="testfunc" time="8.911826133728027"><system-out>/home/cladmi/git/work/RIOT/tests/bench_runtime_coreapis/bin/native/tests_bench_runtime_coreapis.elf  
 RIOT native interrupts/signals initialized.
 LED_RED_OFF
 LED_GREEN_ON
@@ -8,19 +8,19 @@ RIOT native hardware initialization complete.
 main(): This is RIOT! (Version: buildtest)
 Runtime of Selected Core API functions
 
-                 nop loop:      2100us  ---   0.002us per call  ---  476190476 calls per sec
+                 nop loop:      2184us  ---   0.002us per call  ---  457875457 calls per sec
 
-             mutex_init():      3964us  ---   0.003us per call  ---  252270433 calls per sec
-        mutex lock/unlock:   1118787us  ---   1.118us per call  ---     893825 calls per sec
+             mutex_init():      5083us  ---   0.005us per call  ---  196734212 calls per sec
+        mutex lock/unlock:   1151374us  ---   1.151us per call  ---     868527 calls per sec
 
-       thread_flags_set():    562601us  ---   0.562us per call  ---    1777458 calls per sec
-     thread_flags_clear():    549170us  ---   0.549us per call  ---    1820929 calls per sec
-thread flags set/wait any:   2085055us  ---   2.085us per call  ---     479603 calls per sec
-thread flags set/wait all:   1972738us  ---   1.972us per call  ---     506909 calls per sec
-thread flags set/wait one:   1860855us  ---   1.860us per call  ---     537387 calls per sec
+       thread_flags_set():    603621us  ---   0.603us per call  ---    1656668 calls per sec
+     thread_flags_clear():    603927us  ---   0.603us per call  ---    1655829 calls per sec
+thread flags set/wait any:   1903491us  ---   1.903us per call  ---     525350 calls per sec
+thread flags set/wait all:   1819502us  ---   1.819us per call  ---     549600 calls per sec
+thread flags set/wait one:   1893266us  ---   1.893us per call  ---     528187 calls per sec
 
-        msg_try_receive():    605259us  ---   0.605us per call  ---    1652185 calls per sec
-              msg_avail():      8026us  ---   0.008us per call  ---  124595066 calls per sec
+        msg_try_receive():    634381us  ---   0.634us per call  ---    1576339 calls per sec
+              msg_avail():      8532us  ---   0.008us per call  ---  117205813 calls per sec
 
 [SUCCESS]
 

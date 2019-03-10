@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="0" name="native.gnu" skips="0" tests="1" time="3.320"><testcase classname="native.gnu.tests_pipe.test.tests.01-run" file="tests/01-run.py" line="6" name="testfunc" time="3.3086118698120117"><system-out>/home/cladmi/git/work/RIOT/tests/pipe/bin/native/tests_pipe.elf  
+<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="0" name="native.gnu.tests_pipe" skips="0" tests="1" time="3.269"><testcase classname="native.gnu.tests_pipe.test.tests.01-run" file="tests/01-run.py" line="6" name="testfunc" time="3.259897470474243"><system-out>/home/cladmi/git/work/RIOT/tests/pipe/bin/native/tests_pipe.elf  
 RIOT native interrupts/signals initialized.
 LED_RED_OFF
 LED_GREEN_ON
