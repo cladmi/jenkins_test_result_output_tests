@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="0" name="native:gnu" skips="0" tests="1" time="3.280"><testcase classname="native:gnu.tests_pipe.test.tests.01-run" file="tests/01-run.py" line="6" name="testfunc" time="3.2725467681884766"><system-out>/home/cladmi/git/work/RIOT/tests/pipe/bin/native/tests_pipe.elf  
+RIOT native interrupts/signals initialized.
+LED_RED_OFF
+LED_GREEN_ON
+RIOT native board initialized.
+RIOT native hardware initialization complete.
+
+main(): This is RIOT! (Version: buildtest)
+Start.
+Middle read: &lt;ABCD&gt; [0:4]
+Middle read: &lt;EF&gt; [4:6]
+End read: &lt;ABC&gt; [0:3]
+End read: &lt;DEF&gt; [3:6]
+Middle read: &lt;GHIJ&gt; [6:10]
+Middle read: &lt;KL&gt; [10:12]
+End read: &lt;GHI&gt; [6:9]
+End read: &lt;JKL&gt; [9:12]
+Middle read: &lt;MNOP&gt; [12:16]
+Middle read: &lt;QR&gt; [16:18]
+End read: &lt;MNO&gt; [12:15]
+End read: &lt;PQR&gt; [15:18]
+Middle read: &lt;STUV&gt; [18:22]
+Middle read: &lt;WX&gt; [22:24]
+Main done.
+End read: &lt;STU&gt; [18:21]
+End read: &lt;VWX&gt; [21:24]
+Middle read: &lt;YZ&gt; [24:26]
+Middle done.
+End read: &lt;YZ&gt; [24:26]
+End done.
+
+</system-out></testcase></testsuite>

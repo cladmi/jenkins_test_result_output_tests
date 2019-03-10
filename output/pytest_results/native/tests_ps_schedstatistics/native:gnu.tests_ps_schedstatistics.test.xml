@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="0" name="native:gnu" skips="0" tests="1" time="3.529"><testcase classname="native:gnu.tests_ps_schedstatistics.test.tests.01-run" file="tests/01-run.py" line="57" name="testfunc" time="3.5124154090881348"><system-out>/home/cladmi/git/work/RIOT/tests/ps_schedstatistics/bin/native/tests_ps_schedstatistics.elf  
+RIOT native interrupts/signals initialized.
+LED_RED_OFF
+LED_GREEN_ON
+RIOT native board initialized.
+RIOT native hardware initialization complete.
+
+main(): This is RIOT! (Version: buildtest)
+Creating thread #0, next=1
+Creating thread #1, next=2
+Creating thread #2, next=3
+Creating thread #3, next=4
+Creating thread #4, next=0
+&gt; 
+help
+
+&gt; help
+Command              Description
+---------------------------------------
+reboot               Reboot the node
+ps                   Prints information about running threads.
+&gt; ps
+ps
+	pid | name                 | state    Q | pri | stack  ( used) | base addr  | current     | runtime  | switches
+	  - | isr_stack            | -        - |   - |   8192 (   -1) | 0x56654660 | 0x56654660
+	  1 | idle                 | pending  Q |  15 |   8192 (  584) | 0x56652140 | 0x56653fa0  | 31.378% |         1
+	  2 | main                 | running  Q |   7 |  12288 ( 3104) | 0x5664f140 | 0x56651fa0  | 66.490% |      3470
+	  3 | thread               | bl rx    _ |   6 |   8192 ( 2380) | 0x56645120 | 0x56646f80  |  0.391% |      1387
+	  4 | thread               | bl rx    _ |   6 |   8192 ( 2380) | 0x56647120 | 0x56648f80  |  0.420% |      1387
+	  5 | thread               | bl mutex _ |   6 |   8192 ( 2380) | 0x56649120 | 0x5664af80  |  0.460% |      1386
+	  6 | thread               | bl rx    _ |   6 |   8192 ( 2380) | 0x5664b120 | 0x5664cf80  |  0.497% |      1385
+	  7 | thread               | bl rx    _ |   6 |   8192 ( 2380) | 0x5664d120 | 0x5664ef80  |  0.361% |      1385
+	    | SUM                  |            |     |  69632 (15588)
+&gt; 
+</system-out></testcase></testsuite>
