@@ -1,11 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="0" name="riot_tests" skips="0" tests="1" time="3.299"><properties><property name="RIOT_VERSION" value="2019.04-devel-319-g00c71-pr/wip/pytest"/></properties><testcase classname="test.native" file="tests/01-run.py" line="13" name="test.native.tests_thread_cooperation.tests.01-run.testfunc" time="3.288470983505249"><system-out>/home/cladmi/git/work/RIOT/tests/thread_cooperation/bin/native/tests_thread_cooperation.elf  
-RIOT native interrupts/signals initialized.
-LED_RED_OFF
-LED_GREEN_ON
-RIOT native board initialized.
-RIOT native hardware initialization complete.
-
-main(): This is RIOT! (Version: buildtest)
+<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="0" name="riot_tests" skips="0" tests="1" time="5.712"><properties><property name="RIOT_VERSION" value="2019.04-devel-319-g00c71-pr/wip/pytest"/></properties><testcase classname="iotlab-m3.tests_thread_cooperation" file="tests/01-run.py" line="13" name="iotlab-m3.tests_thread_cooperation.test.tests.01-run.testfunc" time="5.7045557498931885"><system-out>ssh -t harter@grenoble.iot-lab.info &apos;socat - tcp:m3-8.grenoble.iot-lab.info:20000&apos;
+�main(): This is RIOT! (Version: buildtest)
 [START] compute 12! (factorial).
 MAIN: create thread, arg: 1
 MAIN: msg to T-3
@@ -69,5 +63,33 @@ MAIN: reply from T-13
 MAIN: reply from T-14
 MAIN: 12! = 479001600
 [SUCCESS]
-
+�main(): This is RIOT! (Version: buildtest)
+[START] compute 12! (factorial).
+MAIN: create thread, arg: 1
+MAIN: msg to T-3
+T-03: alive
+T-03: got arg 1
+MAIN: create thread, arg: 2
+MAIN: msg to T-4
+T-04: alive
+T-04: got arg 2
+MAIN: create thread, arg: 3
+MAIN: msg to T-5
+T-05: alive
+T-05: got arg 3
+MAIN: create thread, arg: 4
+MAIN: msg to T-6
+T-06: alive
+T-06: got arg 4
+MAIN: create thread, arg: 5
+MAIN: msg to T-7
+T-07: alive
+T-07: got arg 5
+MAIN: create thread, arg: 6
+MAIN: msg to T-8
+T-08: alive
+T-08: got arg 6
+MAIN: create thread, arg: 7
+MAIN: msg to T-9
+T-09: alive
 </system-out></testcase></testsuite>
