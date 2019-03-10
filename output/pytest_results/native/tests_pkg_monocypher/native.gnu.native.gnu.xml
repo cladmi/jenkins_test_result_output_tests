@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="0" name="native.gnu" skips="0" tests="1" time="3.388"><testcase classname="native.gnu.native.gnu.tests.01-run" file="tests/01-run.py" line="18" name="testfunc" time="3.3520491123199463"><system-out>/home/cladmi/git/work/RIOT/tests/pkg_monocypher/bin/native/tests_pkg_monocypher.elf  
+RIOT native interrupts/signals initialized.
+LED_RED_OFF
+LED_GREEN_ON
+RIOT native board initialized.
+RIOT native hardware initialization complete.
+
+main(): This is RIOT! (Version: buildtest)
+..
+OK (2 tests)
+
+</system-out></testcase></testsuite>

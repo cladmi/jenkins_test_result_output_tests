@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="0" name="native.gnu" skips="0" tests="1" time="8.780"><testcase classname="native.gnu.native.gnu.tests.01-run" file="tests/01-run.py" line="15" name="testfunc" time="8.771344900131226"><system-out>/home/cladmi/git/work/RIOT/tests/float/bin/native/tests_float.elf  
+RIOT native interrupts/signals initialized.
+LED_RED_OFF
+LED_GREEN_ON
+RIOT native board initialized.
+RIOT native hardware initialization complete.
+
+main(): This is RIOT! (Version: buildtest)
+Testing floating point arithmetics...
+
+[SUCCESS]
+
+</system-out></testcase></testsuite>

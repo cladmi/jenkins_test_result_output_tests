@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="0" name="native.gnu" skips="0" tests="1" time="3.429"><testcase classname="native.gnu.native.gnu.tests.01-run" file="tests/01-run.py" line="6" name="testfunc" time="3.382782459259033"><system-out>/home/cladmi/git/work/RIOT/tests/irq/bin/native/tests_irq.elf  
+RIOT native interrupts/signals initialized.
+LED_RED_OFF
+LED_GREEN_ON
+RIOT native board initialized.
+RIOT native hardware initialization complete.
+
+main(): This is RIOT! (Version: buildtest)
+START
+busy_thread created
+xtimer_wait()
+busy_thread starting
+main: return
+i: 47466749
+j: 47466749
+k: 47466749
+SUCCESS
+
+</system-out></testcase></testsuite>
