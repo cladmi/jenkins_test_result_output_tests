@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="0" name="riot_tests" skips="0" tests="1" time="5.578"><properties><property name="RIOT_VERSION" value="2019.04-devel-319-g00c71-pr/wip/pytest"/></properties><testcase classname="iotlab-m3.tests_thread_msg_seq" file="tests/01-run.py" line="6" name="testfunc" time="5.569113492965698"><system-out>ssh -t harter@grenoble.iot-lab.info &apos;socat - tcp:m3-8.grenoble.iot-lab.info:20000&apos;
+<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="0" name="riot_tests" skips="0" tests="1" time="5.721"><properties><property name="RIOT_VERSION" value="2019.04-devel-320-gb376d-pr/wip/pytest"/></properties><testcase classname="iotlab-m3.tests_thread_msg_seq" file="tests/01-run.py" line="6" name="iotlab-m3.tests_thread_msg_seq.test.tests.01-run.testfunc" time="5.713189601898193"><system-out>ssh -t harter@grenoble.iot-lab.info &apos;socat - tcp:m3-8.grenoble.iot-lab.info:20000&apos;
 �main(): This is RIOT! (Version: buildtest)
 START
 THREADS CREATED
