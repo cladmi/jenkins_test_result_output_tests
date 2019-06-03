@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="0" name="riot_tests" skips="0" tests="1" time="7.228"><properties><property name="RIOT_VERSION" value="2019.07-devel-249-g5bb49-HEAD"/></properties><testcase classname="nrf52dk.tests_pthread_rwlock" file="tests/01-run.py" line="6" name="test.tests.01-run.testfunc" time="7.211241960525513"><system-out>ssh -t iotlab@saclay.iot-lab.info &apos;socat - tcp:nrf52dk-1.saclay.iot-lab.info:20000&apos;
+<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="0" name="nrf52dk.tests_pthread_rwlock" skips="0" tests="1" time="7.228"><properties><property name="RIOT_VERSION" value="2019.07-devel-249-g5bb49-HEAD"/></properties><testcase classname="nrf52dk.tests_pthread_rwlock" file="tests/01-run.py" line="6" name="test.tests.01-run.testfunc" time="7.211241960525513"><system-out>ssh -t iotlab@saclay.iot-lab.info &apos;socat - tcp:nrf52dk-1.saclay.iot-lab.info:20000&apos;
 w8 (prio=8): 0: write -&gt;  1 (correct = 1)
 d8 (prio=8): sleep for   150626 µs.
 d3 (prio=8): sleep for     8364 µs.

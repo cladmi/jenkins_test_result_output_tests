@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="1" name="riot_tests" skips="0" tests="1" time="15.371"><properties><property name="RIOT_VERSION" value="2019.07-devel-249-g5bb49-HEAD"/></properties><testcase classname="iotlab-m3.tests_pkg_micro-ecc" file="tests/01-run.py" line="11" name="test.tests.01-run.testfunc" time="15.303659439086914"><failure message="pexpect.exceptions.TIMEOUT: ................ done with 0 error(s)">child = &lt;pytest_child.CustomSpawn object at 0x7f84cf8fd128&gt;
+<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="1" name="iotlab-m3.tests_pkg_micro-ecc" skips="0" tests="1" time="15.371"><properties><property name="RIOT_VERSION" value="2019.07-devel-249-g5bb49-HEAD"/></properties><testcase classname="iotlab-m3.tests_pkg_micro-ecc" file="tests/01-run.py" line="11" name="test.tests.01-run.testfunc" time="15.303659439086914"><failure message="pexpect.exceptions.TIMEOUT: ................ done with 0 error(s)">child = &lt;pytest_child.CustomSpawn object at 0x7f84cf8fd128&gt;
 
     def testfunc(child):
         child.expect_exact(&apos;micro-ecc compiled!&apos;)

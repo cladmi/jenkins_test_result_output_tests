@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="1" name="riot_tests" skips="0" tests="1" time="14.883"><properties><property name="RIOT_VERSION" value="2019.07-devel-249-g5bb49-HEAD"/></properties><testcase classname="samr21-xpro.pkg_fatfs_vfs" file="tests/01-run.py" line="16" name="test.tests.01-run.testfunc" time="14.831719636917114"><failure message="pexpect.exceptions.TIMEOUT: Tests for FatFs over VFS - test results will be printed in the format test_name:result">child = &lt;pytest_child.CustomSpawn object at 0x7fb490f9f2e8&gt;
+<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="1" name="samr21-xpro.pkg_fatfs_vfs" skips="0" tests="1" time="14.883"><properties><property name="RIOT_VERSION" value="2019.07-devel-249-g5bb49-HEAD"/></properties><testcase classname="samr21-xpro.pkg_fatfs_vfs" file="tests/01-run.py" line="16" name="test.tests.01-run.testfunc" time="14.831719636917114"><failure message="pexpect.exceptions.TIMEOUT: Tests for FatFs over VFS - test results will be printed in the format test_name:result">child = &lt;pytest_child.CustomSpawn object at 0x7fb490f9f2e8&gt;
 
     def testfunc(child):
     

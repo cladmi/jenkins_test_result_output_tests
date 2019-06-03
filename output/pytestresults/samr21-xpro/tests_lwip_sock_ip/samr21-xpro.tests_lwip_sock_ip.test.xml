@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="0" name="riot_tests" skips="0" tests="1" time="8.720"><properties><property name="RIOT_VERSION" value="2019.07-devel-249-g5bb49-HEAD"/></properties><testcase classname="samr21-xpro.tests_lwip_sock_ip" file="tests/01-run.py" line="20" name="test.tests.01-run.testfunc" time="8.70206618309021"><system-out>ssh -t iotlab@saclay.iot-lab.info &apos;socat - tcp:samr21-1.saclay.iot-lab.info:20000&apos;
+<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="0" name="samr21-xpro.tests_lwip_sock_ip" skips="0" tests="1" time="8.720"><properties><property name="RIOT_VERSION" value="2019.07-devel-249-g5bb49-HEAD"/></properties><testcase classname="samr21-xpro.tests_lwip_sock_ip" file="tests/01-run.py" line="20" name="test.tests.01-run.testfunc" time="8.70206618309021"><system-out>ssh -t iotlab@saclay.iot-lab.info &apos;socat - tcp:samr21-1.saclay.iot-lab.info:20000&apos;
 Calling test_sock_ip_create6__EAFNOSUPPORT()
 Calling test_sock_ip_create6__EINVAL_addr()
 Calling test_sock_ip_create6__EINVAL_netif()

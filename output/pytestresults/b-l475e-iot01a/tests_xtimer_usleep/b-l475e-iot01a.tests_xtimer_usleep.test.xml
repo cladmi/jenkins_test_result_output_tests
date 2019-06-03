@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="1" name="riot_tests" skips="0" tests="1" time="6.055"><properties><property name="RIOT_VERSION" value="2019.07-devel-249-g5bb49-HEAD"/></properties><testcase classname="b-l475e-iot01a.tests_xtimer_usleep" file="tests/01-run.py" line="25" name="test.tests.01-run.testfunc" time="6.002728700637817"><failure message="SystemExit: 1">child = &lt;pytest_child.CustomSpawn object at 0x7f3f610de0b8&gt;
+<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="1" name="b-l475e-iot01a.tests_xtimer_usleep" skips="0" tests="1" time="6.055"><properties><property name="RIOT_VERSION" value="2019.07-devel-249-g5bb49-HEAD"/></properties><testcase classname="b-l475e-iot01a.tests_xtimer_usleep" file="tests/01-run.py" line="25" name="test.tests.01-run.testfunc" time="6.002728700637817"><failure message="SystemExit: 1">child = &lt;pytest_child.CustomSpawn object at 0x7f3f610de0b8&gt;
 
     def testfunc(child):
         child.expect(u&quot;Running test (\\d+) times with (\\d+) distinct sleep times&quot;)

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="1" name="riot_tests" skips="0" tests="1" time="14.284"><properties><property name="RIOT_VERSION" value="2019.07-devel-249-g5bb49-HEAD"/></properties><testcase classname="nrf52dk.tests_pthread_condition_variable" file="tests/01-run.py" line="12" name="test.tests.01-run.testfunc" time="14.226307153701782"><failure message="pexpect.exceptions.TIMEOUT: condition fulfilled.">child = &lt;pytest_child.CustomSpawn object at 0x7fef566ce208&gt;
+<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="1" name="nrf52dk.tests_pthread_condition_variable" skips="0" tests="1" time="14.284"><properties><property name="RIOT_VERSION" value="2019.07-devel-249-g5bb49-HEAD"/></properties><testcase classname="nrf52dk.tests_pthread_condition_variable" file="tests/01-run.py" line="12" name="test.tests.01-run.testfunc" time="14.226307153701782"><failure message="pexpect.exceptions.TIMEOUT: condition fulfilled.">child = &lt;pytest_child.CustomSpawn object at 0x7fef566ce208&gt;
 
     def testfunc(child):
         child.expect(&apos;START&apos;)
