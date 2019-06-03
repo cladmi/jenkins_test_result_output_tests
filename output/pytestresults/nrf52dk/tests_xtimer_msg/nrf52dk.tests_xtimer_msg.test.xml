@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="0" name="riot_tests" skips="0" tests="1" time="34.182"><properties><property name="RIOT_VERSION" value="2019.07-devel-249-g5bb49-HEAD"/></properties><testcase classname="nrf52dk.tests_xtimer_msg" file="tests/01-run.py" line="12" name="test.tests.01-run.testfunc" time="34.159886598587036"><system-out>ssh -t iotlab@saclay.iot-lab.info &apos;socat - tcp:nrf52dk-1.saclay.iot-lab.info:20000&apos;
+sec=1 min=0 hour=0
+now=2:10128 -&gt; every 2.0s: Hello World
+sec=2 min=0 hour=0
+sec=3 min=0 hour=0
+now=4:13586 -&gt; every 2.0s: Hello World
+sec=4 min=0 hour=0
+main(): This is RIOT! (Version: buildtest)
+This is thread 3
+sending 1st msg
+now=0:6757 -&gt; every 2.0s: Hello World
+sending 2nd msg
+now=0:11526 -&gt; every 5.0s: This is a Test
+This is thread 4
+sec=1 min=0 hour=0
+now=2:10128 -&gt; every 2.0s: Hello World
+sec=2 min=0 hour=0
+sec=3 min=0 hour=0
+now=4:13586 -&gt; every 2.0s: Hello World
+sec=4 min=0 hour=0
+now=5:15243 -&gt; every 5.0s: This is a Test
+sec=5 min=0 hour=0
+now=6:17044 -&gt; every 2.0s: Hello World
+sec=6 min=0 hour=0
+sec=7 min=0 hour=0
+now=8:20502 -&gt; every 2.0s: Hello World
+sec=8 min=0 hour=0
+sec=9 min=0 hour=0
+now=10:18959 -&gt; every 5.0s: This is a Test
+now=10:23961 -&gt; every 2.0s: Hello World
+sec=10 min=0 hour=0
+sec=11 min=0 hour=0
+now=12:27505 -&gt; every 2.0s: Hello World
+sec=12 min=0 hour=0
+sec=13 min=0 hour=0
+now=14:31049 -&gt; every 2.0s: Hello World
+sec=14 min=0 hour=0
+now=15:22770 -&gt; every 5.0s: This is a Test
+sec=15 min=0 hour=0
+now=16:34594 -&gt; every 2.0s: Hello World
+sec=16 min=0 hour=0
+sec=17 min=0 hour=0
+now=18:38138 -&gt; every 2.0s: Hello World
+sec=18 min=0 hour=0
+sec=19 min=0 hour=0
+now=20:26581 -&gt; every 5.0s: This is a Test
+now=20:41683 -&gt; every 2.0s: Hello World
+sec=20 min=0 hour=0
+sec=21 min=0 hour=0
+now=22:45227 -&gt; every 2.0s: Hello World
+sec=22 min=0 hour=0
+sec=23 min=0 hour=0
+now=24:48771 -&gt; every 2.0s: Hello World
+sec=24 min=0 hour=0
+now=25:30392 -&gt; every 5.0s: This is a Test
+sec=25 min=0 hour=0
+now=26:52316 -&gt; every 2.0s: Hello World
+sec=26 min=0 hour=0
+sec=27 min=0 hour=0
+now=28:55860 -&gt; every 2.0s: Hello World
+sec=28 min=0 hour=0
+sec=29 min=0 hour=0
+now=30:34203 -&gt; every 5.0s: This is a Test
+
+</system-out></testcase></testsuite>

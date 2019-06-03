@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="0" name="riot_tests" skips="0" tests="1" time="5.378"><properties><property name="RIOT_VERSION" value="2019.07-devel-249-g5bb49-HEAD"/></properties><testcase classname="b-l475e-iot01a.tests_shell" file="tests/01-run.py" line="50" name="test.tests.01-run.testfunc" time="5.358342170715332"><system-out>ssh -t iotlab@saclay.iot-lab.info &apos;socat - tcp:st-iotnode-1.saclay.iot-lab.info:20000&apos;
+�main(): This is RIOT! (Version: buildtest)
+test_shell.
+&gt; ���in(): This is RIOT! (Version: buildtest)
+test_shell.
+&gt; help
+help
+Command              Description
+---------------------------------------
+start_test           starts a test
+end_test             ends a test
+echo                 prints the input command
+reboot               Reboot the node
+ps                   Prints information about running threads.
+app_metadata         Returns application metadata
+&gt; start_test
+start_test
+[TEST_START]123456789012345678901234567890123456789012345678901234567890
+
+&gt; 123456789012345678901234567890123456789012345678901234567890
+shell: command not found: 123456789012345678901234567890123456789012345678901234567890
+&gt; echo a string
+echo a string
+&quot;echo&quot;&quot;a&quot;&quot;string&quot;
+&gt; ps
+ps
+	pid | state    Q | pri 
+	  1 | pending  Q |  15
+	  2 | running  Q |   7
+&gt; end_test
+end_test
+[TEST_END]
+&gt; 
+
+unknown_command
+
+&gt; 
+&gt; unknown_command
+shell: command not found: unknown_command
+&gt; reboot
+reboot
+�main(): This is RIOT! (Version: buildtest)
+test_shell.
+&gt; 
+</system-out></testcase></testsuite>

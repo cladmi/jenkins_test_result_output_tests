@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="0" name="riot_tests" skips="0" tests="1" time="31.024"><properties><property name="RIOT_VERSION" value="2019.07-devel-249-g5bb49-HEAD"/></properties><testcase classname="iotlab-m3.tests_periph_rtt" file="tests/01-run.py" line="17" name="test.tests.01-run.testfunc" time="30.99228596687317"><system-out>ssh -t iotlab@saclay.iot-lab.info &apos;socat - tcp:m3-1.saclay.iot-lab.info:20000&apos;
+�main(): This is RIOT! (Version: buildtest)
+
+RIOT RTT low-level driver test
+This test will display &apos;Hello&apos; every 5 seconds
+
+Initializing the RTT driver
+RTT now: 0
+Setting initial alarm to now + 5 s (5)
+Done setting up the RTT, wait for many Hellos
+�main(): This is RIOT! (Version: buildtest)
+
+RIOT RTT low-level driver test
+This test will display &apos;Hello&apos; every 5 seconds
+
+Initializing the RTT driver
+RTT now: 0
+Setting initial alarm to now + 5 s (5)
+Done setting up the RTT, wait for many Hellos
+Hello
+Hello
+Hello
+Hello
+Hello
+
+</system-out></testcase></testsuite>

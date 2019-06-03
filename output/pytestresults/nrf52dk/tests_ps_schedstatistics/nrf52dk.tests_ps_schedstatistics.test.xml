@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="0" name="riot_tests" skips="0" tests="1" time="5.436"><properties><property name="RIOT_VERSION" value="2019.07-devel-249-g5bb49-HEAD"/></properties><testcase classname="nrf52dk.tests_ps_schedstatistics" file="tests/01-run.py" line="57" name="test.tests.01-run.testfunc" time="5.419117450714111"><system-out>ssh -t iotlab@saclay.iot-lab.info &apos;socat - tcp:nrf52dk-1.saclay.iot-lab.info:20000&apos;
+&gt; main(): This is RIOT! (Version: buildtest)
+Creating thread #0, next=1
+Creating thread #1, next=2
+Creating thread #2, next=3
+Creating thread #3, next=4
+Creating thread #4, next=0
+
+&gt; help
+
+&gt; help
+Command              Description
+---------------------------------------
+reboot               Reboot the node
+ps                   Prints information about running threads.
+&gt; ps
+ps
+	pid | name                 | state    Q | pri | stack  ( used) | base addr  | current     | runtime  | switches
+	  - | isr_stack            | -        - |   - |    512 (  132) | 0x20000000 | 0x200001c8
+	  1 | idle                 | pending  Q |  15 |    256 (  128) | 0x20000754 | 0x200007d4  | 85.801% |      1183
+	  2 | main                 | running  Q |   7 |   1536 (  752) | 0x20000854 | 0x20000b64  |  3.726% |       528
+	  3 | thread     
+</system-out></testcase></testsuite>

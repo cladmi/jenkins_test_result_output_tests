@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="1" name="riot_tests" skips="0" tests="1" time="4.724"><properties><property name="RIOT_VERSION" value="2019.07-devel-249-g5bb49-HEAD"/></properties><testcase time="0"></testcase><testcase time="0"></testcase><testcase time="0"></testcase><testcase time="0"></testcase><testcase time="0"></testcase><testcase time="0"></testcase><testcase time="0"></testcase><testcase time="0"></testcase><testcase time="0"></testcase><testcase time="0"></testcase><testcase time="0"></testcase><testcase time="0"></testcase><testcase time="0"></testcase><testcase time="0"></testcase><testcase classname="b-l475e-iot01a.tests_gnrc_sock_dns" file="tests/01-run.py" line="272" name="test.tests.01-run.testfunc" time="4.29286003112793"><failure message="subprocess.CalledProcessError: Command &apos;[&apos;ip&apos;, &apos;addr&apos;, &apos;show&apos;, &apos;dev&apos;, &apos;tap0&apos;, &apos;scope&apos;, &apos;link&apos;]&apos; returned non-zero exit status 1">child = &lt;pytest_child.CustomSpawn object at 0x7fa35ec2f240&gt;
+
+    def testfunc(child):
+        global server
+        tap = get_bridge(os.environ[&quot;TAP&quot;])
+&gt;       lladdr = get_host_lladdr(tap)
+
+tests/01-run.py:276: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+tests/01-run.py:117: in get_host_lladdr
+    &quot;lladdr&quot;
+tests/01-run.py:96: in check_and_search_output
+    output = subprocess.check_output(cmd, *args, **kwargs).decode(&quot;utf-8&quot;)
+/usr/lib/python3.5/subprocess.py:626: in check_output
+    **kwargs).stdout
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+input = None, timeout = None, check = True
+popenargs = ([&apos;ip&apos;, &apos;addr&apos;, &apos;show&apos;, &apos;dev&apos;, &apos;tap0&apos;, &apos;scope&apos;, ...],)
+kwargs = {&apos;stdout&apos;: -1}, process = &lt;subprocess.Popen object at 0x7fa35ec2f400&gt;
+stdout = b&apos;&apos;, stderr = None, retcode = 1
+
+    def run(*popenargs, input=None, timeout=None, check=False, **kwargs):
+        &quot;&quot;&quot;Run command with arguments and return a CompletedProcess instance.
+    
+        The returned instance will have attributes args, returncode, stdout and
+        stderr. By default, stdout and stderr are not captured, and those attributes
+        will be None. Pass stdout=PIPE and/or stderr=PIPE in order to capture them.
+    
+        If check is True and the exit code was non-zero, it raises a
+        CalledProcessError. The CalledProcessError object will have the return code
+        in the returncode attribute, and output &amp; stderr attributes if those streams
+        were captured.
+    
+        If timeout is given, and the process takes too long, a TimeoutExpired
+        exception will be raised.
+    
+        There is an optional argument &quot;input&quot;, allowing you to
+        pass a string to the subprocess&apos;s stdin.  If you use this argument
+        you may not also use the Popen constructor&apos;s &quot;stdin&quot; argument, as
+        it will be used internally.
+    
+        The other arguments are the same as for the Popen constructor.
+    
+        If universal_newlines=True is passed, the &quot;input&quot; argument must be a
+        string and stdout/stderr in the returned object will be strings rather than
+        bytes.
+        &quot;&quot;&quot;
+        if input is not None:
+            if &apos;stdin&apos; in kwargs:
+                raise ValueError(&apos;stdin and input arguments may not both be used.&apos;)
+            kwargs[&apos;stdin&apos;] = PIPE
+    
+        with Popen(*popenargs, **kwargs) as process:
+            try:
+                stdout, stderr = process.communicate(input, timeout=timeout)
+            except TimeoutExpired:
+                process.kill()
+                stdout, stderr = process.communicate()
+                raise TimeoutExpired(process.args, timeout, output=stdout,
+                                     stderr=stderr)
+            except:
+                process.kill()
+                process.wait()
+                raise
+            retcode = process.poll()
+            if check and retcode:
+                raise CalledProcessError(retcode, process.args,
+&gt;                                        output=stdout, stderr=stderr)
+E               subprocess.CalledProcessError: Command &apos;[&apos;ip&apos;, &apos;addr&apos;, &apos;show&apos;, &apos;dev&apos;, &apos;tap0&apos;, &apos;scope&apos;, &apos;link&apos;]&apos; returned non-zero exit status 1
+
+/usr/lib/python3.5/subprocess.py:708: CalledProcessError</failure><system-out>
+</system-out></testcase></testsuite>

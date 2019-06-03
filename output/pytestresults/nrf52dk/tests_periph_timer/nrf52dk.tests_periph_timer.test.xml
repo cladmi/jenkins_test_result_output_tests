@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="0" name="riot_tests" skips="0" tests="1" time="4.268"><properties><property name="RIOT_VERSION" value="2019.07-devel-249-g5bb49-HEAD"/></properties><testcase classname="nrf52dk.tests_periph_timer" file="tests/01-run.py" line="12" name="test.tests.01-run.testfunc" time="4.251190423965454"><system-out>ssh -t iotlab@saclay.iot-lab.info &apos;socat - tcp:nrf52dk-1.saclay.iot-lab.info:20000&apos;
+
+TIMER_1: set channel 2 to 15000
+TIMER_1: starting
+TIMER_1: channel 0 fired at SW count        0 - init:        0
+TIMER_1: channel 1 fired at SW count       72 - diff:       72
+TIMER_1: channel 2 fired at SW count      678 - diff:      606
+
+TEST SUCCEEDED
+main(): This is RIOT! (Version: buildtest)
+
+Test for peripheral TIMERs
+
+Available timers: 2
+
+Testing TIMER_0:
+TIMER_0: initialization successful
+TIMER_0: stopped
+TIMER_0: set channel 0 to 5000
+TIMER_0: set channel 1 to 10000
+TIMER_0: set channel 2 to 15000
+TIMER_0: starting
+TIMER_0: channel 0 fired at SW count    22854 - init:    22854
+TIMER_0: channel 1 fired at SW count    49500 - diff:    26646
+TIMER_0: channel 2 fired at SW count    76149 - diff:    26649
+
+Testing TIMER_1:
+TIMER_1: initialization successful
+TIMER_1: stopped
+TIMER_1: set channel 0 to 5000
+TIMER_1: set channel 1 to 10000
+TIMER_1: set channel 2 to 15000
+TIMER_1: starting
+TIMER_1: channel 0 fired at SW count        0 - init:        0
+TIMER_1: channel 1 fired at SW count       71 - diff:       71
+TIMER_1: channel 2 fired at SW count      677 - diff:      606
+
+TEST SUCCEEDED
+
+</system-out></testcase></testsuite>

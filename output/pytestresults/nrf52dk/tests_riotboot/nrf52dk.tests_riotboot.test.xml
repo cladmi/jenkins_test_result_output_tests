@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="1" name="riot_tests" skips="0" tests="1" time="14.416"><properties><property name="RIOT_VERSION" value="2019.07-devel-249-g5bb49-HEAD"/></properties><testcase classname="nrf52dk.tests_riotboot" file="tests/01-run.py" line="12" name="test.tests.01-run.testfunc" time="14.35928201675415"><failure message="pexpect.exceptions.TIMEOUT: Current slot=[0-1]">child = &lt;pytest_child.CustomSpawn object at 0x7fe58634d0f0&gt;
+
+    def testfunc(child):
+        # Ask for current slot, should be 0 or 1
+        child.sendline(&quot;curslotnr&quot;)
+&gt;       child.expect(&quot;Current slot=[0-1]&quot;)
+
+tests/01-run.py:16: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = &lt;pytest_child.CustomSpawn object at 0x7fe58634d0f0&gt;
+pattern = &apos;Current slot=[0-1]&apos;, args = (), kwargs = {}
+
+    def expect(self, pattern, *args, **kwargs):
+        # pylint:disable=arguments-differ
+        try:
+            return super().expect(pattern, *args, **kwargs)
+        except (pexpect.TIMEOUT, pexpect.EOF) as exc:
+            exc.orig_value = exc.value
+            exc.value = pattern
+&gt;           raise exc.with_traceback(None) from None
+E           pexpect.exceptions.TIMEOUT: Current slot=[0-1]
+
+../../../iotlab-os-ci/tools/pytest/pytest_child.py:113: TIMEOUT</failure><system-out>curslotnr
+ssh -t iotlab@saclay.iot-lab.info &apos;socat - tcp:nrf52dk-1.saclay.iot-lab.info:20000&apos;
+main(): This is RIOT! (Version: buildtest)
+Hello riotboot!
+You are running RIOT on a(n) nrf52dk board.
+This board features a(n) nrf52 MCU.
+[FAILED] You&apos;re not running riotboot
+&gt; curslotnr
+Current slot=-1
+&gt; 
+</system-out></testcase></testsuite>

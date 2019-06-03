@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="0" name="riot_tests" skips="0" tests="1" time="5.157"><properties><property name="RIOT_VERSION" value="2019.07-devel-249-g5bb49-HEAD"/></properties><testcase classname="nrf52dk.tests_events" file="tests/01-run.py" line="13" name="test.tests.01-run.testfunc" time="5.138248920440674"><system-out>ssh -t iotlab@saclay.iot-lab.info &apos;socat - tcp:nrf52dk-1.saclay.iot-lab.info:20000&apos;
+8
+triggered delayed event 0x20000218
+triggered delayed event 0x20000220
+posting 0x20000228
+posting 0x20000230
+canceling 0x20000230
+posting custom event
+posting timed callback with timeout 1sec
+posting timed callback with timeout 0.5sec and canceling it agamain(): This is RIOT! (Version: buildtest)
+[START] event test application.
+
+initializing detached event queue 0x20000a18
+posting 0x20000218
+posting 0x20000220
+running thread that will claim event queue 0x20000a18
+claiming event queue 0x20000a18
+launching event queue 0x20000a18
+triggered delayed event 0x20000218
+triggered delayed event 0x20000220
+posting 0x20000228
+posting 0x20000230
+canceling 0x20000230
+posting custom event
+posting timed callback with timeout 1sec
+posting timed callback with timeout 0.5sec and canceling it again
+launching event queue
+triggered 0x20000228
+triggered custom event with text: &quot;CUSTOM CALLBACK&quot;
+triggered timed callback with arg 0x12345678 after 1000014us
+[SUCCESS]
+
+</system-out></testcase></testsuite>

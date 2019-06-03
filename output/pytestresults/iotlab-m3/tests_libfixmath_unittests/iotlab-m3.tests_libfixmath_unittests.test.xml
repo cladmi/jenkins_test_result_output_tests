@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="0" name="riot_tests" skips="0" tests="1" time="79.991"><properties><property name="RIOT_VERSION" value="2019.07-devel-249-g5bb49-HEAD"/></properties><testcase classname="iotlab-m3.tests_libfixmath_unittests" file="tests/01-run.py" line="16" name="test.tests.01-run.testfunc" time="79.94217896461487"><system-out>ssh -t iotlab@saclay.iot-lab.info &apos;socat - tcp:m3-1.saclay.iot-lab.info:20000&apos;
+Worst delta 39 with input 251543
+Average delta 1.11
+#x1B[32;1mOK:#x1B[22;39m max_delta &lt; 200
+
+----Testing fix16_exp() accuracy over full range----
+Worst delta 0.0025% with input 323857
+Average delta 0.0003%
+#x1B[32;1mOK:#x1B[22;39m max_delta &lt; 1
+
+----Testing fix16_log() accuracy over full range----
+�main(): This is RIOT! (Version: buildtest)
+
+----Testing fix16_exp() corner cases----
+#x1B[32;1mOK:#x1B[22;39m fix16_exp(0) == fix16_one
+#x1B[32;1mOK:#x1B[22;39m fix16_exp(fix16_minimum) == 0
+#x1B[32;1mOK:#x1B[22;39m fix16_exp(fix16_maximum) == fix16_maximum
+
+----Testing fix16_exp() accuracy over -11..4----
+�main(): This is RIOT! (Version: buildtest)
+
+----Testing fix16_exp() corner cases----
+#x1B[32;1mOK:#x1B[22;39m fix16_exp(0) == fix16_one
+#x1B[32;1mOK:#x1B[22;39m fix16_exp(fix16_minimum) == 0
+#x1B[32;1mOK:#x1B[22;39m fix16_exp(fix16_maximum) == fix16_maximum
+
+----Testing fix16_exp() accuracy over -11..4----
+Worst delta 39 with input 251543
+Average delta 1.11
+#x1B[32;1mOK:#x1B[22;39m max_delta &lt; 200
+
+----Testing fix16_exp() accuracy over full range----
+Worst delta 0.0025% with input 323857
+Average delta 0.0003%
+#x1B[32;1mOK:#x1B[22;39m max_delta &lt; 1
+
+----Testing fix16_log() accuracy over full range----
+Worst delta 3 with input 417752911
+Average delta 0.30
+#x1B[32;1mOK:#x1B[22;39m max_delta &lt; 20
+#x1B[32;1mOK:#x1B[22;39m F16(1.234) == F16C(1,234)
+#x1B[32;1mOK:#x1B[22;39m F16(1.234) == fix16_from_dbl(1.234)
+#x1B[32;1mOK:#x1B[22;39m F16(0.0) == F16C(0,0)
+#x1B[32;1mOK:#x1B[22;39m F16(0.0) == fix16_from_dbl(0.0)
+#x1B[32;1mOK:#x1B[22;39m F16(1.0) == F16C(1,0)
+#x1B[32;1mOK:#x1B[22;39m F16(1.0) == fix16_from_dbl(1.0)
+#x1B[32;1mOK:#x1B[22;39m F16(-1.0) == F16C(-1,0)
+#x1B[32;1mOK:#x1B[22;39m F16(-1.0) == fix16_from_dbl(-1.0)
+#x1B[32;1mOK:#x1B[22;39m F16(1.5) == F16C(1,5)
+#x1B[32;1mOK:#x1B[22;39m F16(1.5) == fix16_from_dbl(1.5)
+#x1B[32;1mOK:#x1B[22;39m F16(-1.5) == F16C(-1,5)
+#x1B[32;1mOK:#x1B[22;39m F16(-1.5) == fix16_from_dbl(-1.5)
+#x1B[32;1mOK:#x1B[22;39m F16(000000.00000) == F16C(000000,00000)
+#x1B[32;1mOK:#x1B[22;39m F16(000000.00000) == fix16_from_dbl(000000.00000)
+#x1B[32;1mOK:#x1B[22;39m F16(0.00001) == F16C(0,00001)
+#x1B[32;1mOK:#x1B[22;39m F16(0.00001) == fix16_from_dbl(0.00001)
+#x1B[32;1mOK:#x1B[22;39m F16(0.00010) == F16C(0,00010)
+#x1B[32;1mOK:#x1B[22;39m F16(0.00010) == fix16_from_dbl(0.00010)
+#x1B[32;1mOK:#x1B[22;39m F16(0.1) == F16C(0,1)
+#x1B[32;1mOK:#x1B[22;39m F16(0.1) == fix16_from_dbl(0.1)
+#x1B[32;1mOK:#x1B[22;39m F16(0.10001) == F16C(0,10001)
+#x1B[32;1mOK:#x1B[22;39m F16(0.10001) == fix16_from_dbl(0.10001)
+#x1B[32;1mOK:#x1B[22;39m F16(0.11000) == F16C(0,11000)
+#x1B[32;1mOK:#x1B[22;39m F16(0.11000) == fix16_from_dbl(0.11000)
+#x1B[32;1mOK:#x1B[22;39m F16(25.133) == F16C(25,133)
+#x1B[32;1mOK:#x1B[22;39m F16(25.133) == fix16_from_dbl(25.133)
+#x1B[32;1mOK:#x1B[22;39m F16(32767.00000) == F16C(32767,00000)
+#x1B[32;1mOK:#x1B[22;39m F16(32767.00000) == fix16_from_dbl(32767.00000)
+#x1B[32;1mOK:#x1B[22;39m F16(32767.00001) == F16C(32767,00001)
+#x1B[32;1mOK:#x1B[22;39m F16(32767.00001) == fix16_from_dbl(32767.00001)
+#x1B[32;1mOK:#x1B[22;39m F16(32767.99999) == F16C(32767,99999)
+#x1B[32;1mOK:#x1B[22;39m F16(32767.99999) == fix16_from_dbl(32767.99999)
+#x1B[32;1mOK:#x1B[22;39m F16(0.25) == F16C(0,25)
+#x1B[32;1mOK:#x1B[22;39m F16(0.25) == fix16_from_dbl(0.25)
+#x1B[32;1mOK:#x1B[22;39m F16(0.99555) == F16C(0,99555)
+#x1B[32;1mOK:#x1B[22;39m F16(0.99555) == fix16_from_dbl(0.99555)
+#x1B[32;1mOK:#x1B[22;39m F16(0.99998) == F16C(0,99998)
+#x1B[32;1mOK:#x1B[22;39m F16(0.99998) == fix16_from_dbl(0.99998)
+#x1B[32;1mOK:#x1B[22;39m F16(0.99999) == F16C(0,99999)
+#x1B[32;1mOK:#x1B[22;39m F16(0.99999) == fix16_from_dbl(0.99999)
+#x1B[32;1mOK:#x1B[22;39m F16(-1.1) == F16C(-1,1)
+#x1B[32;1mOK:#x1B[22;39m F16(-1.1) == fix16_from_dbl(-1.1)
+#x1B[32;1mOK:#x1B[22;39m F16(-25.133) == F16C(-25,133)
+#x1B[32;1mOK:#x1B[22;39m F16(-25.133) == fix16_from_dbl(-25.133)
+#x1B[32;1mOK:#x1B[22;39m F16(-32767.00001) == F16C(-32767,00001)
+#x1B[32;1mOK:#x1B[22;39m F16(-32767.00001) == fix16_from_dbl(-32767.00001)
+#x1B[32;1mOK:#x1B[22;39m F16(-32768.00000) == F16C(-32768,00000)
+#x1B[32;1mOK:#x1B[22;39m F16(-32768.00000) == fix16_from_dbl(-32768.00000)
+#x1B[32;1mOK:#x1B[22;39m F16(0.02267) == F16C(0,02267)
+#x1B[32;1mOK:#x1B[22;39m F16(0.02267) == fix16_from_dbl(0.02267)
+#x1B[32;1mOK:#x1B[22;39m F16(1.49887) == F16C(1,49887)
+#x1B[32;1mOK:#x1B[22;39m F16(1.49887) == fix16_from_dbl(1.49887)
+#x1B[32;1mOK:#x1B[22;39m F16(0.27589) == F16C(0,27589)
+#x1B[32;1mOK:#x1B[22;39m F16(0.27589) == fix16_from_dbl(0.27589)
+#x1B[32;1mOK:#x1B[22;39m F16(0.38393) == F16C(0,38393)
+#x1B[32;1mOK:#x1B[22;39m F16(0.38393) == fix16_from_dbl(0.38393)
+#x1B[32;1mOK:#x1B[22;39m F16(0.08934) == F16C(0,08934)
+#x1B[32;1mOK:#x1B[22;39m F16(0.08934) == fix16_from_dbl(0.08934)
+#x1B[32;1mOK:#x1B[22;39m F16(0.95820) == F16C(0,95820)
+#x1B[32;1mOK:#x1B[22;39m F16(0.95820) == fix16_from_dbl(0.95820)
+#x1B[32;1mOK:#x1B[22;39m F16(0.95596) == F16C(0,95596)
+#x1B[32;1mOK:#x1B[22;39m F16(0.95596) == fix16_from_dbl(0.95596)
+#x1B[32;1mOK:#x1B[22;39m F16(72.10642) == F16C(72,10642)
+#x1B[32;1mOK:#x1B[22;39m F16(72.10642) == fix16_from_dbl(72.10642)
+#x1B[32;1mOK:#x1B[22;39m F16(0.48939) == F16C(0,48939)
+#x1B[32;1mOK:#x1B[22;39m F16(0.48939) == fix16_from_dbl(0.48939)
+#x1B[32;1mOK:#x1B[22;39m F16(3.37797) == F16C(3,37797)
+#x1B[32;1mOK:#x1B[22;39m F16(3.37797) == fix16_from_dbl(3.37797)
+#x1B[32;1mOK:#x1B[22;39m F16(1.09194) == F16C(1,09194)
+#x1B[32;1mOK:#x1B[22;39m F16(1.09194) == fix16_from_dbl(1.09194)
+#x1B[32;1mOK:#x1B[22;39m F16(0.08605) == F16C(0,08605)
+#x1B[32;1mOK:#x1B[22;39m F16(0.08605) == fix16_from_dbl(0.08605)
+#x1B[32;1mOK:#x1B[22;39m F16(3.04349) == F16C(3,04349)
+#x1B[32;1mOK:#x1B[22;39m F16(3.04349) == fix16_from_dbl(3.04349)
+#x1B[32;1mOK:#x1B[22;39m F16(3.95401) == F16C(3,95401)
+#x1B[32;1mOK:#x1B[22;39m F16(3.95401) == fix16_from_dbl(3.95401)
+#x1B[32;1mOK:#x1B[22;39m F16(15.36292) == F16C(15,36292)
+#x1B[32;1mOK:#x1B[22;39m F16(15.36292) == fix16_from_dbl(15.36292)
+#x1B[32;1mOK:#x1B[22;39m F16(56.09242) == F16C(56,09242)
+#x1B[32;1mOK:#x1B[22;39m F16(56.09242) == fix16_from_dbl(56.09242)
+#x1B[32;1mOK:#x1B[22;39m F16(0.54071) == F16C(0,54071)
+#x1B[32;1mOK:#x1B[22;39m F16(0.54071) == fix16_from_dbl(0.54071)
+#x1B[32;1mOK:#x1B[22;39m F16(27.08953) == F16C(27,08953)
+#x1B[32;1mOK:#x1B[22;39m F16(27.08953) == fix16_from_dbl(27.08953)
+#x1B[32;1mOK:#x1B[22;39m F16(0.03913) == F16C(0,03913)
+#x1B[32;1mOK:#x1B[22;39m F16(0.03913) == fix16_from_dbl(0.03913)
+#x1B[32;1mOK:#x1B[22;39m F16(1.32707) == F16C(1,32707)
+#x1B[32;1mOK:#x1B[22;39m F16(1.32707) == fix16_from_dbl(1.32707)
+#x1B[32;1mOK:#x1B[22;39m F16(4.50117) == F16C(4,50117)
+#x1B[32;1mOK:#x1B[22;39m F16(4.50117) == fix16_from_dbl(4.50117)
+#x1B[32;1mOK:#x1B[22;39m F16(0.24990) == F16C(0,24990)
+#x1B[32;1mOK:#x1B[22;39m F16(0.24990) == fix16_from_dbl(0.24990)
+#x1B[32;1mOK:#x1B[22;39m F16(44.77319) == F16C(44,77319)
+#x1B[32;1mOK:#x1B[22;39m F16(44.77319) == fix16_from_dbl(44.77319)
+#x1B[32;1mOK:#x1B[22;39m F16(2.59139) == F16C(2,59139)
+#x1B[32;1mOK:#x1B[22;39m F16(2.59139) == fix16_from_dbl(2.59139)
+#x1B[32;1mOK:#x1B[22;39m F16(0.16279) == F16C(0,16279)
+#x1B[32;1mOK:#x1B[22;39m F16(0.16279) == fix16_from_dbl(0.16279)
+#x1B[32;1mOK:#x1B[22;39m F16(17.14712) == F16C(17,14712)
+#x1B[32;1mOK:#x1B[22;39m F16(17.14712) == fix16_from_dbl(17.14712)
+#x1B[32;1mOK:#x1B[22;39m F16(11.54281) == F16C(11,54281)
+#x1B[32;1mOK:#x1B[22;39m F16(11.54281) == fix16_from_dbl(11.54281)
+#x1B[32;1mOK:#x1B[22;39m F16(0.02768) == F16C(0,02768)
+#x1B[32;1mOK:#x1B[22;39m F16(0.02768) == fix16_from_dbl(0.02768)
+#x1B[32;1mOK:#x1B[22;39m F16(0.39278) == F16C(0,39278)
+#x1B[32;1mOK:#x1B[22;39m F16(0.39278) == fix16_from_dbl(0.39278)
+#x1B[32;1mOK:#x1B[22;39m F16(0.19369) == F16C(0,19369)
+#x1B[32;1mOK:#x1B[22;39m F16(0.19369) == fix16_from_dbl(0.19369)
+#x1B[32;1mOK:#x1B[22;39m F16(-0.04534) == F16C(-0,04534)
+#x1B[32;1mOK:#x1B[22;39m F16(-0.04534) == fix16_from_dbl(-0.04534)
+#x1B[32;1mOK:#x1B[22;39m F16(-0.00349) == F16C(-0,00349)
+#x1B[32;1mOK:#x1B[22;39m F16(-0.00349) == fix16_from_dbl(-0.00349)
+#x1B[32;1mOK:#x1B[22;39m F16(-2.30380) == F16C(-2,30380)
+#x1B[32;1mOK:#x1B[22;39m F16(-2.30380) == fix16_from_dbl(-2.30380)
+#x1B[32;1mOK:#x1B[22;39m F16(-0.03061) == F16C(-0,03061)
+#x1B[32;1mOK:#x1B[22;39m F16(-0.03061) == fix16_from_dbl(-0.03061)
+#x1B[32;1mOK:#x1B[22;39m F16(-7.50065) == F16C(-7,50065)
+#x1B[32;1mOK:#x1B[22;39m F16(-7.50065) == fix16_from_dbl(-7.50065)
+#x1B[32;1mOK:#x1B[22;39m F16(-3.97050) == F16C(-3,97050)
+#x1B[32;1mOK:#x1B[22;39m F16(-3.97050) == fix16_from_dbl(-3.97050)
+#x1B[32;1mOK:#x1B[22;39m F16(-0.43898) == F16C(-0,43898)
+#x1B[32;1mOK:#x1B[22;39m F16(-0.43898) == fix16_from_dbl(-0.43898)
+#x1B[32;1mOK:#x1B[22;39m F16(-3.49876) == F16C(-3,49876)
+#x1B[32;1mOK:#x1B[22;39m F16(-3.49876) == fix16_from_dbl(-3.49876)
+#x1B[32;1mOK:#x1B[22;39m F16(-1.35942) == F16C(-1,35942)
+#x1B[32;1mOK:#x1B[22;39m F16(-1.35942) == fix16_from_dbl(-1.35942)
+#x1B[32;1mOK:#x1B[22;39m F16(-10.81154) == F16C(-10,81154)
+#x1B[32;1mOK:#x1B[22;39m F16(-10.81154) == fix16_from_dbl(-10.81154)
+#x1B[32;1mOK:#x1B[22;39m F16(-0.26676) == F16C(-0,26676)
+#x1B[32;1mOK:#x1B[22;39m F16(-0.26676) == fix16_from_dbl(-0.26676)
+#x1B[32;1mOK:#x1B[22;39m F16(-9.52134) == F16C(-9,52134)
+#x1B[32;1mOK:#x1B[22;39m F16(-9.52134) == fix16_from_dbl(-9.52134)
+#x1B[32;1mOK:#x1B[22;39m F16(-0.42592) == F16C(-0,42592)
+#x1B[32;1mOK:#x1B[22;39m F16(-0.42592) == fix16_from_dbl(-0.42592)
+#x1B[32;1mOK:#x1B[22;39m F16(-0.05424) == F16C(-0,05424)
+#x1B[32;1mOK:#x1B[22;39m F16(-0.05424) == fix16_from_dbl(-0.05424)
+#x1B[32;1mOK:#x1B[22;39m F16(-0.62461) == F16C(-0,62461)
+#x1B[32;1mOK:#x1B[22;39m F16(-0.62461) == fix16_from_dbl(-0.62461)
+#x1B[32;1mOK:#x1B[22;39m F16(-0.21562) == F16C(-0,21562)
+#x1B[32;1mOK:#x1B[22;39m F16(-0.21562) == fix16_from_dbl(-0.21562)
+#x1B[32;1mOK:#x1B[22;39m F16(-0.22366) == F16C(-0,22366)
+#x1B[32;1mOK:#x1B[22;39m F16(-0.22366) == fix16_from_dbl(-0.22366)
+#x1B[32;1mOK:#x1B[22;39m F16(-0.09074) == F16C(-0,09074)
+#x1B[32;1mOK:#x1B[22;39m F16(-0.09074) == fix16_from_dbl(-0.09074)
+#x1B[32;1mOK:#x1B[22;39m F16(-1.29527) == F16C(-1,29527)
+#x1B[32;1mOK:#x1B[22;39m F16(-1.29527) == fix16_from_dbl(-1.29527)
+#x1B[32;1mOK:#x1B[22;39m F16(-4.98427) == F16C(-4,98427)
+#x1B[32;1mOK:#x1B[22;39m F16(-4.98427) == fix16_from_dbl(-4.98427)
+#x1B[32;1mOK:#x1B[22;39m F16(-0.10721) == F16C(-0,10721)
+#x1B[32;1mOK:#x1B[22;39m F16(-0.10721) == fix16_from_dbl(-0.10721)
+#x1B[32;1mOK:#x1B[22;39m F16(-11.39446) == F16C(-11,39446)
+#x1B[32;1mOK:#x1B[22;39m F16(-11.39446) == fix16_from_dbl(-11.39446)
+#x1B[32;1mOK:#x1B[22;39m F16(-451.53916) == F16C(-451,53916)
+#x1B[32;1mOK:#x1B[22;39m F16(-451.53916) == fix16_from_dbl(-451.53916)
+#x1B[32;1mOK:#x1B[22;39m F16(-0.04279) == F16C(-0,04279)
+#x1B[32;1mOK:#x1B[22;39m F16(-0.04279) == fix16_from_dbl(-0.04279)
+#x1B[32;1mOK:#x1B[22;39m F16(-3.36543) == F16C(-3,36543)
+#x1B[32;1mOK:#x1B[22;39m F16(-3.36543) == fix16_from_dbl(-3.36543)
+#x1B[32;1mOK:#x1B[22;39m F16(-0.01003) == F16C(-0,01003)
+#x1B[32;1mOK:#x1B[22;39m F16(-0.01003) == fix16_from_dbl(-0.01003)
+#x1B[32;1mOK:#x1B[22;39m F16(-12.08326) == F16C(-12,08326)
+#x1B[32;1mOK:#x1B[22;39m F16(-12.08326) == fix16_from_dbl(-12.08326)
+#x1B[32;1mOK:#x1B[22;39m F16(-1.07143) == F16C(-1,07143)
+#x1B[32;1mOK:#x1B[22;39m F16(-1.07143) == fix16_from_dbl(-1.07143)
+#x1B[32;1mOK:#x1B[22;39m F16(-1.07737) == F16C(-1,07737)
+#x1B[32;1mOK:#x1B[22;39m F16(-1.07737) == fix16_from_dbl(-1.07737)
+#x1B[32;1mOK:#x1B[22;39m F16(-0.22957) == F16C(-0,22957)
+#x1B[32;1mOK:#x1B[22;39m F16(-0.22957) == fix16_from_dbl(-0.22957)
+
+----Testing fix16_to_str corner cases----
+1234.5678 = 1234.5678
+#x1B[32;1mOK:#x1B[22;39m strcmp(buf, &quot;1234.5678&quot;) == 0
+-1234.5678 = -1234.5678
+#x1B[32;1mOK:#x1B[22;39m strcmp(buf, &quot;-1234.5678&quot;) == 0
+#x1B[32;1mOK:#x1B[22;39m strcmp(buf, &quot;0&quot;) == 0
+#x1B[32;1mOK:#x1B[22;39m strcmp(buf, &quot;1&quot;) == 0
+(fix16_t)1 = 0.00002
+#x1B[32;1mOK:#x1B[22;39m strcmp(buf, &quot;0.00002&quot;) == 0
+(fix16_t)-1 = -0.00002
+#x1B[32;1mOK:#x1B[22;39m strcmp(buf, &quot;-0.00002&quot;) == 0
+(fix16_t)65535 = 0.99998
+#x1B[32;1mOK:#x1B[22;39m strcmp(buf, &quot;0.99998&quot;) == 0
+(fix16_t)65535 = 1.0000
+#x1B[32;1mOK:#x1B[22;39m strcmp(buf, &quot;1.0000&quot;) == 0
+fix16_maximum = 32767.99998
+#x1B[32;1mOK:#x1B[22;39m strcmp(buf, &quot;32767.99998&quot;) == 0
+fix16_minimum = -32768.00000
+#x1B[32;1mOK:#x1B[22;39m strcmp(buf, &quot;-32768.00000&quot;) == 0
+
+----Testing fix16_from_str corner cases----
+#x1B[32;1mOK:#x1B[22;39m fix16_from_str(&quot;1234.5678&quot;) == fix16_from_dbl(1234.5678)
+#x1B[32;1mOK:#x1B[22;39m fix16_from_str(&quot;-1234.5678&quot;) == fix16_from_dbl(-1234.5678)
+#x1B[32;1mOK:#x1B[22;39m fix16_from_str(&quot;   +1234,56780   &quot;) == fix16_from_dbl(1234.5678)
+#x1B[32;1mOK:#x1B[22;39m fix16_from_str(&quot;0&quot;) == 0
+#x1B[32;1mOK:#x1B[22;39m fix16_from_str(&quot;1&quot;) == fix16_one
+#x1B[32;1mOK:#x1B[22;39m fix16_from_str(&quot;1.0&quot;) == fix16_one
+#x1B[32;1mOK:#x1B[22;39m fix16_from_str(&quot;1.0000000000&quot;) == fix16_one
+#x1B[32;1mOK:#x1B[22;39m fix16_from_str(&quot;0.00002&quot;) == 1
+#x1B[32;1mOK:#x1B[22;39m fix16_from_str(&quot;0.99998&quot;) == 65535
+#x1B[32;1mOK:#x1B[22;39m fix16_from_str(&quot;32767.99998&quot;) == fix16_maximum
+#x1B[32;1mOK:#x1B[22;39m fix16_from_str(&quot;-32768.00000&quot;) == fix16_minimum
+
+----Extended testing for whole range----
+#x1B[32;1mOK:#x1B[22;39m ok
+
+----Testing basic multiplication----
+#x1B[32;1mOK:#x1B[22;39m fix16_mul(fix16_from_int(5), fix16_from_int(5)) == fix16_from_int(25)
+#x1B[32;1mOK:#x1B[22;39m fix16_mul(fix16_from_int(-5), fix16_from_int(5)) == fix16_from_int(-25)
+#x1B[32;1mOK:#x1B[22;39m fix16_mul(fix16_from_int(-5), fix16_from_int(-5)) == fix16_from_int(25)
+#x1B[32;1mOK:#x1B[22;39m fix16_mul(fix16_from_int(5), fix16_from_int(-5)) == fix16_from_int(-25)
+
+----Testing multiplication rounding corner cases----
+#x1B[32;1mOK:#x1B[22;39m fix16_mul(0, 10) == 0
+#x1B[32;1mOK:#x1B[22;39m fix16_mul(2, 0x8000) == 1
+#x1B[32;1mOK:#x1B[22;39m fix16_mul(-2, 0x8000) == -1
+#x1B[32;1mOK:#x1B[22;39m fix16_mul(3, 0x8000) == 2
+#x1B[32;1mOK:#x1B[22;39m fix16_mul(-3, 0x8000) == -2
+#x1B[32;1mOK:#x1B[22;39m fix16_mul(2, 0x7FFF) == 1
+#x1B[32;1mOK:#x1B[22;39m fix16_mul(-2, 0x7FFF) == -1
+#x1B[32;1mOK:#x1B[22;39m fix16_mul(2, 0x8001) == 1
+#x1B[32;1mOK:#x1B[22;39m fix16_mul(-2, 0x8001) == -1
+
+----Running testcases for multiplication----
+#x1B[32;1mOK:#x1B[22;39m failures == 0
+
+----Testing basic division----
+#x1B[32;1mOK:#x1B[22;39m fix16_div(fix16_from_int(15), fix16_from_int(5)) == fix16_from_int(3)
+#x1B[32;1mOK:#x1B[22;39m fix16_div(fix16_from_int(-15), fix16_from_int(5)) == fix16_from_int(-3)
+#x1B[32;1mOK:#x1B[22;39m fix16_div(fix16_from_int(-15), fix16_from_int(-5)) == fix16_from_int(3)
+#x1B[32;1mOK:#x1B[22;39m fix16_div(fix16_from_int(15), fix16_from_int(-5)) == fix16_from_int(-3)
+
+----Testing division rounding corner cases----
+#x1B[32;1mOK:#x1B[22;39m fix16_div(0, 10) == 0
+#x1B[32;1mOK:#x1B[22;39m fix16_div(1, fix16_from_int(2)) == 1
+#x1B[32;1mOK:#x1B[22;39m fix16_div(-1, fix16_from_int(2)) == -1
+#x1B[32;1mOK:#x1B[22;39m fix16_div(1, fix16_from_int(-2)) == -1
+#x1B[32;1mOK:#x1B[22;39m fix16_div(-1, fix16_from_int(-2)) == 1
+#x1B[32;1mOK:#x1B[22;39m fix16_div(3, fix16_from_int(2)) == 2
+#x1B[32;1mOK:#x1B[22;39m fix16_div(-3, fix16_from_int(2)) == -2
+#x1B[32;1mOK:#x1B[22;39m fix16_div(3, fix16_from_int(-2)) == -2
+#x1B[32;1mOK:#x1B[22;39m fix16_div(-3, fix16_from_int(-2)) == 2
+#x1B[32;1mOK:#x1B[22;39m fix16_div(2, 0x7FFF) == 4
+#x1B[32;1mOK:#x1B[22;39m fix16_div(-2, 0x7FFF) == -4
+#x1B[32;1mOK:#x1B[22;39m fix16_div(2, 0x8001) == 4
+#x1B[32;1mOK:#x1B[22;39m fix16_div(-2, 0x8001) == -4
+
+----Running testcases for division----
+#x1B[32;1mOK:#x1B[22;39m failures == 0
+
+----Running testcases for addition----
+#x1B[32;1mOK:#x1B[22;39m failures == 0
+
+----Running testcases for subtraction----
+#x1B[32;1mOK:#x1B[22;39m failures == 0
+
+----Testing basic square roots----
+#x1B[32;1mOK:#x1B[22;39m fix16_sqrt(fix16_from_int(16)) == fix16_from_int(4)
+#x1B[32;1mOK:#x1B[22;39m fix16_sqrt(fix16_from_int(100)) == fix16_from_int(10)
+#x1B[32;1mOK:#x1B[22;39m fix16_sqrt(fix16_from_int(1)) == fix16_from_int(1)
+
+----Testing square root rounding corner cases----
+#x1B[32;1mOK:#x1B[22;39m fix16_sqrt(214748302) == 3751499
+#x1B[32;1mOK:#x1B[22;39m fix16_sqrt(214748303) == 3751499
+#x1B[32;1mOK:#x1B[22;39m fix16_sqrt(214748359) == 3751499
+#x1B[32;1mOK:#x1B[22;39m fix16_sqrt(214748360) == 3751500
+
+----Running test cases for square root----
+#x1B[32;1mOK:#x1B[22;39m failures == 0
+SUCCESS
+
+</system-out></testcase></testsuite>

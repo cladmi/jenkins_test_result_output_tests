@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="0" name="riot_tests" skips="0" tests="1" time="5.455"><properties><property name="RIOT_VERSION" value="2019.07-devel-249-g5bb49-HEAD"/></properties><testcase classname="b-l475e-iot01a.tests_ps_schedstatistics" file="tests/01-run.py" line="57" name="test.tests.01-run.testfunc" time="5.436306953430176"><system-out>ssh -t iotlab@saclay.iot-lab.info &apos;socat - tcp:st-iotnode-1.saclay.iot-lab.info:20000&apos;
+main(): This is RIOT! (Version: buildtest)
+Creating thread #0, next=1
+Creating thread #1, next=2
+Creating thread #2, next=3
+Creating thread #3, next=4
+Creating thread #4, next=0
+&gt; ��ain(): This is RIOT! (Version: buildtest)
+Creating thread #0, next=1
+Creating thread #1, next=2
+Creating thread #2, next=3
+Creating thread #3, next=4
+Creating thread #4, next=0
+
+help
+&gt; 
+&gt; help
+Command              Description
+---------------------------------------
+reboot               Reboot the node
+ps                   Prints information about running threads.
+&gt; ps
+ps
+	pid | name                 | state    Q | pri | stack  ( used) | base addr  | current     | runtime  | switches
+	  - | isr_stack            | -        - |   - |    512 (  132) | 0x20000000 | 0x200001c8
+	  1 | idle                 | pending  Q |  15 |    256 (  128) | 0x2000075c | 0x200007dc  | 92.518% |       764
+	  2 | main                 | running  Q |   7 |   1536 (  768) | 0x2000085c | 0x20000b6c  |  2.595% |       341
+	  3 | thread               | bl rx    _ |   6 |   1024 (  384) | 0x20000e68 | 0x200011ac  |  1.037% |       469
+
+</system-out></testcase></testsuite>

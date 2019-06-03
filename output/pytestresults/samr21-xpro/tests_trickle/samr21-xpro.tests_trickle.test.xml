@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="0" name="riot_tests" skips="0" tests="1" time="6.620"><properties><property name="RIOT_VERSION" value="2019.07-devel-249-g5bb49-HEAD"/></properties><testcase classname="samr21-xpro.tests_trickle" file="tests/01-run.py" line="12" name="test.tests.01-run.testfunc" time="6.602310657501221"><system-out>ssh -t iotlab@saclay.iot-lab.info &apos;socat - tcp:samr21-1.saclay.iot-lab.info:20000&apos;
+now = 1544733, t = 496
+now = 2103873, t = 541
+[SUCCESS]
+main(): This is RIOT! (Version: buildtest)
+[START]
+now = 14991, t = 11
+now = 55859, t = 32
+now = 118733, t = 57
+now = 274692, t = 139
+now = 540743, t = 259
+[TRICKLE_RESET]
+now = 551833, t = 9
+now = 590706, t = 30
+now = 654667, t = 60
+now = 758628, t = 98
+now = 1014590, t = 224
+now = 1544731, t = 496
+now = 2103872, t = 541
+[SUCCESS]
+
+</system-out></testcase></testsuite>

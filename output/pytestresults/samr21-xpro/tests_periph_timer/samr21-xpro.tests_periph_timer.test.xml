@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="0" name="riot_tests" skips="0" tests="1" time="4.784"><properties><property name="RIOT_VERSION" value="2019.07-devel-249-g5bb49-HEAD"/></properties><testcase classname="samr21-xpro.tests_periph_timer" file="tests/01-run.py" line="12" name="test.tests.01-run.testfunc" time="4.767041921615601"><system-out>ssh -t iotlab@saclay.iot-lab.info &apos;socat - tcp:samr21-1.saclay.iot-lab.info:20000&apos;
+main(): This is RIOT! (Version: buildtest)
+
+Test for peripheral TIMERs
+
+Available timers: 2
+
+Testing TIMER_0:
+TIMER_0: initialization successful
+TIMER_0: stopped
+TIMER_0: set channel 0 to 5000
+TIMER_0: set channel 1 to 10000
+TIMER_0: starting
+TIMER_0: channel 0 fired at SW count    24017 - init:    24017
+TIMER_0: channel 1 fired at SW count    48004 - diff:    23987
+
+Testing TIMER_1:
+TIMER_1: initialization successful
+TIMER_1: stopped
+TIMER_1: set channel 0 to 5000
+TIMER_1: set channel 1 to 10000
+TIMER_1: starting
+TIMER_1: channel 0 fired at SW count    24014 - init:    24014
+TIMER_1: channel 1 fired at SW count    48000 - diff:    23986
+
+TEST SUCCEEDED
+
+</system-out></testcase></testsuite>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="0" name="riot_tests" skips="0" tests="1" time="5.420"><properties><property name="RIOT_VERSION" value="2019.07-devel-249-g5bb49-HEAD"/></properties><testcase classname="nrf52dk.tests_rng" file="tests/01-run.py" line="13" name="test.tests.01-run.testfunc" time="5.403300046920776"><system-out>source 0
+seed 1337
+fips
+ssh -t iotlab@saclay.iot-lab.info &apos;socat - tcp:nrf52dk-1.saclay.iot-lab.info:20000&apos;
+main(): This is RIOT! (Version: buildtest)
+Starting shell...
+&gt; source 0
+&gt; seed 1337
+Seed set to 1337
+&gt; fips
+Running FIPS 140-2 test, with seed 1337 using Tiny Mersenne Twister PRNG.
+
+- Monobit test: passed
+- Poker test: passed
+- Run test: passed
+- Longrun test: passed
+&gt; dump 10
+dump 10
+Running dump test, with seed 1337 using Tiny Mersenne Twister PRNG.
+
+1555530734
+2178333451
+2272913641
+3790481823
+3190025502
+798555366
+1918982324
+1550167154
+3454972398
+1034066532
+&gt; entropy
+entropy
+Running entropy test, with seed 1337 using Tiny Mersenne Twister PRNG.
+
+Calculated 7.994708 bits of entropy from 10000 samples.
+source 1
+seed 1337
+fips
+&gt; source 1
+&gt; seed 1337
+Seed set to 1337
+&gt; fips
+Running FIPS 140-2 test, with seed 1337 using constant value.
+
+- Monobit test: failed
+- Poker test: failed
+- Run test: failed
+- Longrun test: passed
+&gt; dump 10
+dump 10
+Running dump test, with seed 1337 using constant value.
+
+1337
+1337
+1337
+1337
+1337
+1337
+1337
+1337
+1337
+1337
+&gt; entropy
+entropy
+Running entropy test, with seed 1337 using constant value.
+
+Calculated 0.017260 bits of entropy from 10000 samples.
+&gt; 
+</system-out></testcase></testsuite>

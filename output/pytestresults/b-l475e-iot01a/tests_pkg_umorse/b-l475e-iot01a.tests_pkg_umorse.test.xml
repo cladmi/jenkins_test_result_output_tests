@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="0" name="riot_tests" skips="0" tests="1" time="68.827"><properties><property name="RIOT_VERSION" value="2019.07-devel-249-g5bb49-HEAD"/></properties><testcase classname="b-l475e-iot01a.tests_pkg_umorse" file="tests/01-run.py" line="12" name="test.tests.01-run.testfunc" time="68.81101822853088"><system-out>ssh -t iotlab@saclay.iot-lab.info &apos;socat - tcp:st-iotnode-1.saclay.iot-lab.info:20000&apos;
+ucg: UCG_MSG_DRAW_PIXEL (128)
+ucg: UCG_MSG_DRAW_PIXEL (256)
+ucg: UCG_MSG_DRAW_PIXEL (384)
+ucg: UCG_MSG_DRAW_PIXEL (512)
+ucg: UCG_MSG_DRAW_PIXEL (640)
+ucg: UCG_MSG_DRAW_PIXEL (768)
+ucg: UCG_MSG_DRAW_PIXEL (896)
+ucg: UCG_MSG_DRAW_PIXEL (1024)
+ucg: UCG_MSG_DRAW_PIXEL (1152)
+ucg: UCG_MSG_DRAW_PIXEL (1280)
+ucg: UCG_MSG_DRAW_PIXEL (1408)
+ucg: UCG_MSG_DRAW_PIXEL (1536)
+ucg: UCG_MSG_main(): This is RIOT! (Version: buildtest)
+[START]
+&gt; Translate text of length 30 into Morse code:
+&quot;Hello RIOT-OS!
+This is uMorse.&quot;
+&gt; using aligned encoding:
+.... . ._.. ._.. ___ / ._. .. ___ _ ___ ...
+_ .... .. ... / .. ... / .._ __ ___ ._. ... .
+&gt; encoded length=52
+&gt; using compact encoding:
+.... . ._.. ._.. ___ / ._. .. ___ _ ___ ...
+_ .... .. ... / .. ... / .._ __ ___ ._. ... .
+&gt; encoded length=25
+[SUCCESS]
+
+</system-out></testcase></testsuite>

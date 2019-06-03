@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="1" name="riot_tests" skips="0" tests="1" time="6.293"><properties><property name="RIOT_VERSION" value="2019.07-devel-249-g5bb49-HEAD"/></properties><testcase classname="samr21-xpro.tests_xtimer_usleep" file="tests/01-run.py" line="25" name="test.tests.01-run.testfunc" time="6.246490716934204"><failure message="SystemExit: 1">child = &lt;pytest_child.CustomSpawn object at 0x7f59e64110f0&gt;
+
+    def testfunc(child):
+        child.expect(u&quot;Running test (\\d+) times with (\\d+) distinct sleep times&quot;)
+        RUNS = int(child.match.group(1))
+        SLEEP_TIMES_NUMOF = int(child.match.group(2))
+        try:
+            child.expect_exact(u&quot;Please hit any key and then ENTER to continue&quot;)
+            child.sendline(u&quot;a&quot;)
+            start_test = time.time()
+            for m in range(RUNS):
+                for n in range(SLEEP_TIMES_NUMOF):
+                    child.expect(u&quot;Slept for (\\d+) us \\(expected: (\\d+) us\\) Offset: (\\d+) us&quot;)
+                    sleep_time = int(child.match.group(1))
+                    exp = int(child.match.group(2))
+                    lower_bound = exp - (exp * INTERNAL_JITTER)
+                    upper_bound = exp + (exp * INTERNAL_JITTER)
+                    if not (lower_bound &lt; sleep_time &lt; upper_bound):
+                        delta = (upper_bound-lower_bound)/2
+                        raise InvalidTimeout(&quot;Invalid timeout %d ,expected %d &lt; %d &lt; %d&quot;
+                                             &quot;\nHost max error\t%d\nerror\t\t%d&quot; %
+                                             (sleep_time, lower_bound, exp, upper_bound,
+                                              delta, sleep_time-lower_bound))
+            testtime = (time.time() - start_test) * US_PER_SEC
+            child.expect(u&quot;Test ran for (\\d+) us&quot;)
+            exp = int(child.match.group(1))
+            lower_bound = exp - (exp * EXTERNAL_JITTER)
+            upper_bound = exp + (exp * EXTERNAL_JITTER)
+            if not (lower_bound &lt; testtime &lt; upper_bound):
+                raise InvalidTimeout(&quot;Host timer measured %d us (client measured %d us)&quot; %
+&gt;                                    (testtime, exp))
+E                                    01-run.InvalidTimeout: Host timer measured 1300653 us (client measured 1735603 us)
+
+tests/01-run.py:54: InvalidTimeout
+
+During handling of the above exception, another exception occurred:
+
+child = &lt;pytest_child.CustomSpawn object at 0x7f59e64110f0&gt;
+
+    def testfunc(child):
+        child.expect(u&quot;Running test (\\d+) times with (\\d+) distinct sleep times&quot;)
+        RUNS = int(child.match.group(1))
+        SLEEP_TIMES_NUMOF = int(child.match.group(2))
+        try:
+            child.expect_exact(u&quot;Please hit any key and then ENTER to continue&quot;)
+            child.sendline(u&quot;a&quot;)
+            start_test = time.time()
+            for m in range(RUNS):
+                for n in range(SLEEP_TIMES_NUMOF):
+                    child.expect(u&quot;Slept for (\\d+) us \\(expected: (\\d+) us\\) Offset: (\\d+) us&quot;)
+                    sleep_time = int(child.match.group(1))
+                    exp = int(child.match.group(2))
+                    lower_bound = exp - (exp * INTERNAL_JITTER)
+                    upper_bound = exp + (exp * INTERNAL_JITTER)
+                    if not (lower_bound &lt; sleep_time &lt; upper_bound):
+                        delta = (upper_bound-lower_bound)/2
+                        raise InvalidTimeout(&quot;Invalid timeout %d ,expected %d &lt; %d &lt; %d&quot;
+                                             &quot;\nHost max error\t%d\nerror\t\t%d&quot; %
+                                             (sleep_time, lower_bound, exp, upper_bound,
+                                              delta, sleep_time-lower_bound))
+            testtime = (time.time() - start_test) * US_PER_SEC
+            child.expect(u&quot;Test ran for (\\d+) us&quot;)
+            exp = int(child.match.group(1))
+            lower_bound = exp - (exp * EXTERNAL_JITTER)
+            upper_bound = exp + (exp * EXTERNAL_JITTER)
+            if not (lower_bound &lt; testtime &lt; upper_bound):
+                raise InvalidTimeout(&quot;Host timer measured %d us (client measured %d us)&quot; %
+                                     (testtime, exp))
+        except InvalidTimeout as e:
+            print(e)
+&gt;           sys.exit(1)
+E           SystemExit: 1
+
+tests/01-run.py:57: SystemExit</failure><system-out>ssh -t iotlab@saclay.iot-lab.info &apos;socat - tcp:samr21-1.saclay.iot-lab.info:20000&apos;
+Slept for 75052 us (expected: 75000 us) Offset: 52 us
+Slept for 10052 us (expected: 10000 us) Offset: 52 us
+Slept for 50052 us (expected: 50000 us) Offset: 52 us
+Slept for 10286 us (expected: 10234 us) Offset: 52 us
+Slept for 56832 us (expected: 56780 us) Offset: 52 us
+Slept for 12174 us (expected: 12122 us) Offset: 52 us
+Slept for 98817 us (expected: 98765 us) Offset: 52 us
+Slept for 75052 us (expected: 75000 us) Offset: 52 us
+Test ran for 1735634 us
+main(): This is RIOT! (Version: buildtest)
+Running test 5 times with 7 distinct sleep times
+Please hit any key and then ENTER to continue
+Slept for 10052 us (expected: 10000 us) Offset: 52 us
+Slept for 50051 us (expected: 50000 us) Offset: 51 us
+Slept for 10286 us (expected: 10234 us) Offset: 52 us
+Slept for 56831 us (expected: 56780 us) Offset: 51 us
+Slept for 12174 us (expected: 12122 us) Offset: 52 us
+Slept for 98817 us (expected: 98765 us) Offset: 52 us
+a
+Slept for 75051 us (expected: 75000 us) Offset: 51 us
+Slept for 10051 us (expected: 10000 us) Offset: 51 us
+Slept for 50051 us (expected: 50000 us) Offset: 51 us
+Slept for 10285 us (expected: 10234 us) Offset: 51 us
+Slept for 56831 us (expected: 56780 us) Offset: 51 us
+Slept for 12173 us (expected: 12122 us) Offset: 51 us
+Slept for 98817 us (expected: 98765 us) Offset: 52 us
+Slept for 75051 us (expected: 75000 us) Offset: 51 us
+Slept for 10051 us (expected: 10000 us) Offset: 51 us
+Slept for 50052 us (expected: 50000 us) Offset: 52 us
+Slept for 10286 us (expected: 10234 us) Offset: 52 us
+Slept for 56831 us (expected: 56780 us) Offset: 51 us
+Slept for 12174 us (expected: 12122 us) Offset: 52 us
+Slept for 98817 us (expected: 98765 us) Offset: 52 us
+Slept for 75051 us (expected: 75000 us) Offset: 51 us
+Slept for 10052 us (expected: 10000 us) Offset: 52 us
+Slept for 50052 us (expected: 50000 us) Offset: 52 us
+Slept for 10286 us (expected: 10234 us) Offset: 52 us
+Slept for 56831 us (expected: 56780 us) Offset: 51 us
+Slept for 12173 us (expected: 12122 us) Offset: 51 us
+Slept for 98816 us (expected: 98765 us) Offset: 51 us
+Slept for 75052 us (expected: 75000 us) Offset: 52 us
+Slept for 10052 us (expected: 10000 us) Offset: 52 us
+Slept for 50051 us (expected: 50000 us) Offset: 51 us
+Slept for 10286 us (expected: 10234 us) Offset: 52 us
+Slept for 56831 us (expected: 56780 us) Offset: 51 us
+Slept for 12173 us (expected: 12122 us) Offset: 51 us
+Slept for 98816 us (expected: 98765 us) Offset: 51 us
+Slept for 75051 us (expected: 75000 us) Offset: 51 us
+Test ran for 1735603 us
+Host timer measured 1300653 us (client measured 1735603 us)
+
+</system-out></testcase></testsuite>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="0" name="riot_tests" skips="0" tests="1" time="5.203"><properties><property name="RIOT_VERSION" value="2019.07-devel-249-g5bb49-HEAD"/></properties><testcase classname="iotlab-m3.tests_mutex_unlock_and_sleep" file="tests/01-run.py" line="12" name="test.tests.01-run.testfunc" time="5.16650390625"><system-out>ssh -t iotlab@saclay.iot-lab.info &apos;socat - tcp:m3-1.saclay.iot-lab.info:20000&apos;
+[ALIVE] alternated 80k times.
+[ALIVE] alternated 90k times.
+[ALIVE] alternated 100k times.
+[ALIVE] alternated 110k times.
+[ALIVE] alternated 120k times.
+[ALIVE] alternated 130k times.
+[ALIVE] alternated 140k times.
+[ALIVE] alternated 150k times.
+[ALIVE] alternated 160k times.
+[ALIVE] alternated 170k times.
+[ALIVE] alternated 180k times.
+[ALIVE] alternated 190k times.
+[ALIVE] alternated 200k times.
+[ALIVE] alternated 210k times.
+[ALIVE] alternated 220k times.
+[ALIVE] alternated 230k times.
+[ALIVE] alternated 240k times.
+�main(): This is RIOT! (Version: buildtest)
+�main(): This is RIOT! (Version: buildtest)
+[ALIVE] alternated 10k times.
+
+</system-out></testcase></testsuite>

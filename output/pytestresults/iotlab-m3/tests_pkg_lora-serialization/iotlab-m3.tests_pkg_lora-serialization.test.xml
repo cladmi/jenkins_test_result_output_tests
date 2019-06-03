@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="0" name="riot_tests" skips="0" tests="1" time="5.247"><properties><property name="RIOT_VERSION" value="2019.07-devel-249-g5bb49-HEAD"/></properties><testcase classname="iotlab-m3.tests_pkg_lora-serialization" file="tests/01-run.py" line="8" name="test.tests.01-run.testfunc" time="5.220388650894165"><system-out>ssh -t iotlab@saclay.iot-lab.info &apos;socat - tcp:m3-1.saclay.iot-lab.info:20000&apos;
+�main(): This is RIOT! (Version: buildtest)
+Lora Serialization test
+
+Test 1
+Temperature and humidity
+---------------------------------
+- Writing temperature: 80.12
+- Writing humidity: 99.99
+- Encoded:  1f 4c 0f 27
+- Expected: 1f 4c 0f 27
+---------------------------------
+SUCCESS
+
+Test 2
+Coordinates and unix time
+---------------------------------
+- Writing coordinates: -33.905052, 151.26641
+- Writing unix time: 1467632413
+- Encoded:  64 a6 fa fd 6a 24 04 09 1d 4b 7a 57
+- Expected: 64 a6 fa fd 6a 24 04 09 1d 4b 7a 57
+---------------------------------
+SUCCESS
+�main(): This is RIOT! (Version: buildtest)
+Lora Serialization test
+
+Test 1
+Temperature and humidity
+---------------------------------
+- Writing temperature: 80.12
+- Writing humidity: 99.99
+- Encoded:  1f 4c 0f 27
+- Expected: 1f 4c 0f 27
+---------------------------------
+SUCCESS
+
+Test 2
+Coordinates and unix time
+---------------------------------
+- Writing coordinates: -33.905052, 151.26641
+- Writing unix time: 1467632413
+- Encoded:  64 a6 fa fd 6a 24 04 09 1d 4b 7a 57
+- Expected: 64 a6 fa fd 6a 24 04 09 1d 4b 7a 57
+---------------------------------
+SUCCESS
+
+</system-out></testcase></testsuite>

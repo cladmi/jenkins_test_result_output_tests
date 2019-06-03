@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="0" name="riot_tests" skips="0" tests="1" time="4.942"><properties><property name="RIOT_VERSION" value="2019.07-devel-249-g5bb49-HEAD"/></properties><testcase classname="samr21-xpro.tests_fmt_print" file="tests/01-run.py" line="6" name="test.tests.01-run.testfunc" time="4.917883634567261"><system-out>ssh -t iotlab@saclay.iot-lab.info &apos;socat - tcp:samr21-1.saclay.iot-lab.info:20000&apos;
+main(): This is RIOT! (Version: buildtest)
+If you can read this:
+Test successful.
+
+</system-out></testcase></testsuite>

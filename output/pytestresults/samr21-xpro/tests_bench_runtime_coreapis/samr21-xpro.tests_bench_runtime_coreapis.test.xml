@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="0" name="riot_tests" skips="0" tests="1" time="25.861"><properties><property name="RIOT_VERSION" value="2019.07-devel-249-g5bb49-HEAD"/></properties><testcase classname="samr21-xpro.tests_bench_runtime_coreapis" file="tests/01-run.py" line="17" name="test.tests.01-run.testfunc" time="25.842659950256348"><system-out>ssh -t iotlab@saclay.iot-lab.info &apos;socat - tcp:samr21-1.saclay.iot-lab.info:20000&apos;
+        mutex lock/unlock:   2500007us  ---   2.500us per call  ---     399998 calls per sec
+
+       thread_flags_set():   1479174us  ---   1.479us per call  ---     676052 calls per sec
+main(): This is RIOT! (Version: buildtest)
+Runtime of Selected Core API functions
+
+                 nop loop:    104173us  ---   0.104us per call  ---    9599416 calls per sec
+
+             mutex_init():         7us  ---   0.000us per call  ---  1123222089 calls per sec
+        mutex lock/unlock:   2500007us  ---   2.500us per call  ---     399998 calls per sec
+
+       thread_flags_set():   1479174us  ---   1.479us per call  ---     676052 calls per sec
+     thread_flags_clear():   1625007us  ---   1.625us per call  ---     615381 calls per sec
+thread flags set/wait any:   4333340us  ---   4.333us per call  ---     230768 calls per sec
+thread flags set/wait all:   3979173us  ---   3.979us per call  ---     251308 calls per sec
+thread flags set/wait one:   4416673us  ---   4.416us per call  ---     226414 calls per sec
+
+        msg_try_receive():   2208340us  ---   2.208us per call  ---     452828 calls per sec
+              msg_avail():    458340us  ---   0.458us per call  ---    2181786 calls per sec
+
+[SUCCESS]
+
+</system-out></testcase></testsuite>

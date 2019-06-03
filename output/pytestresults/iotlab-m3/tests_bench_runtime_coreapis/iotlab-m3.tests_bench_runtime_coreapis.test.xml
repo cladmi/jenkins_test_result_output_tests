@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="0" name="riot_tests" skips="0" tests="1" time="18.433"><properties><property name="RIOT_VERSION" value="2019.07-devel-249-g5bb49-HEAD"/></properties><testcase classname="iotlab-m3.tests_bench_runtime_coreapis" file="tests/01-run.py" line="17" name="test.tests.01-run.testfunc" time="18.379054307937622"><system-out>ssh -t iotlab@saclay.iot-lab.info &apos;socat - tcp:m3-1.saclay.iot-lab.info:20000&apos;
+        mutex lock/unlock:     28268us  ---   0.028us per call  ---   35375689 calls per sec
+
+       thread_flags_set(): 4294962551us  ---  4294.962us per call  ---        232 calls per sec
+     thread_flags_clear():      6981us  ---   0.006us per call  ---  143245953 calls per sec
+�main(): This is RIOT! (Version: buildtest)
+Runtime of Selected Core API functions
+
+                 nop loop:     17799us  ---   0.017us per call  ---   56182931 calls per sec
+
+             mutex_init():         1us  ---   0.000us per call  ---  3567587328 calls per sec
+�main(): This is RIOT! (Version: buildtest)
+Runtime of Selected Core API functions
+
+                 nop loop:     17799us  ---   0.017us per call  ---   56182931 calls per sec
+
+             mutex_init():         1us  ---   0.000us per call  ---  3567587328 calls per sec
+        mutex lock/unlock:     28268us  ---   0.028us per call  ---   35375689 calls per sec
+
+       thread_flags_set(): 4294962551us  ---  4294.962us per call  ---        232 calls per sec
+     thread_flags_clear():      6981us  ---   0.006us per call  ---  143245953 calls per sec
+thread flags set/wait any: 4294956968us  ---  4294.956us per call  ---        232 calls per sec
+thread flags set/wait all: 4294953060us  ---  4294.953us per call  ---        232 calls per sec
+thread flags set/wait one:     17450us  ---   0.017us per call  ---   57306590 calls per sec
+
+        msg_try_receive(): 4294946080us  ---  4294.946us per call  ---        232 calls per sec
+              msg_avail():     23452us  ---   0.023us per call  ---   42640286 calls per sec
+
+[SUCCESS]
+
+</system-out></testcase></testsuite>

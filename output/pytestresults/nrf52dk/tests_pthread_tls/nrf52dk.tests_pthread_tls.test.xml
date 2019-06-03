@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="0" name="riot_tests" skips="0" tests="1" time="4.301"><properties><property name="RIOT_VERSION" value="2019.07-devel-249-g5bb49-HEAD"/></properties><testcase classname="nrf52dk.tests_pthread_tls" file="tests/01-run.py" line="14" name="test.tests.01-run.testfunc" time="4.28480076789856"><system-out>ssh -t iotlab@saclay.iot-lab.info &apos;socat - tcp:nrf52dk-1.saclay.iot-lab.info:20000&apos;
+l: 2
+key[2]: 536877392, val: 3
+key[3]: 536877424, val: 42
+key[4]: 536877456, val: 5
+key[5]: 536877488, val: 6
+key[6]: 536877520, val: 7
+key[7]: 536877552, val: 8
+key[8]: 536877584, val: 9
+key[9]: 536877616, val: 10
+key[10]: 536877648, val: 11
+key[11]: 5368main(): This is RIOT! (Version: buildtest)
+START
+
+-= TEST 1 - create 20 tls with sequencial values 0...19 =-
+now rise sequencial by one values 1...20
+pick deliberate storage (key[3]:536877424) and change the value
+show tls values:
+key[0]: 536877328, val: 1
+key[1]: 536877360, val: 2
+key[2]: 536877392, val: 3
+key[3]: 536877424, val: 42
+key[4]: 536877456, val: 5
+key[5]: 536877488, val: 6
+key[6]: 536877520, val: 7
+key[7]: 536877552, val: 8
+key[8]: 536877584, val: 9
+key[9]: 536877616, val: 10
+key[10]: 536877648, val: 11
+key[11]: 536877680, val: 12
+key[12]: 536877712, val: 13
+key[13]: 536877744, val: 14
+key[14]: 536877776, val: 15
+key[15]: 536877808, val: 16
+key[16]: 536877840, val: 17
+key[17]: 536877872, val: 18
+key[18]: 536877904, val: 19
+key[19]: 536877936, val: 20
+
+ -= TEST 2 - delete deliberate key (key[5]:536877488) =-
+show tls values:
+key[0]: 536877328, val: 1
+key[1]: 536877360, val: 2
+key[2]: 536877392, val: 3
+key[3]: 536877424, val: 42
+key[4]: 536877456, val: 5
+key[6]: 536877520, val: 7
+key[7]: 536877552, val: 8
+key[8]: 536877584, val: 9
+key[9]: 536877616, val: 10
+key[10]: 536877648, val: 11
+key[11]: 536877680, val: 12
+key[12]: 536877712, val: 13
+key[13]: 536877744, val: 14
+key[14]: 536877776, val: 15
+key[15]: 536877808, val: 16
+key[16]: 536877840, val: 17
+key[17]: 536877872, val: 18
+key[18]: 536877904, val: 19
+key[19]: 536877936, val: 20
+
+-= TEST 3 - create new tls =-
+added new tls, key: 536877968, val: 99
+show tls values:
+key[0]: 536877328, val: 1
+key[1]: 536877360, val: 2
+key[2]: 536877392, val: 3
+key[3]: 536877424, val: 42
+key[4]: 536877456, val: 5
+key[6]: 536877520, val: 7
+key[7]: 536877552, val: 8
+key[8]: 536877584, val: 9
+key[9]: 536877616, val: 10
+key[10]: 536877648, val: 11
+key[11]: 536877680, val: 12
+key[12]: 536877712, val: 13
+key[13]: 536877744, val: 14
+key[14]: 536877776, val: 15
+key[15]: 536877808, val: 16
+key[16]: 536877840, val: 17
+key[17]: 536877872, val: 18
+key[18]: 536877904, val: 19
+key[19]: 536877936, val: 20
+
+-= TEST 4 - delete all keys =-
+show tls values:
+
+-= TEST 5 - try delete non-existing key =-
+try to delete returns: 0
+
+-= TEST 6 - add key and delete without a tls =-
+created key: 536878000
+try to delete returns: 0
+
+-= TEST 7 - add key without tls =-
+created key: 536878016
+test_7_val: 0
+tls tests finished.
+SUCCESS
+
+</system-out></testcase></testsuite>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="0" name="riot_tests" skips="0" tests="1" time="5.225"><properties><property name="RIOT_VERSION" value="2019.07-devel-249-g5bb49-HEAD"/></properties><testcase classname="iotlab-m3.isr_yield_higher" file="tests/test.py" line="12" name="test.tests.test.testfunc" time="5.193140029907227"><system-out>ssh -t iotlab@saclay.iot-lab.info &apos;socat - tcp:m3-1.saclay.iot-lab.info:20000&apos;
+�main(): This is RIOT! (Version: buildtest)
+first thread started
+timer triggered
+�main(): This is RIOT! (Version: buildtest)
+first thread started
+timer triggered
+first thread done
+TEST SUCCESSFUL
+
+</system-out></testcase></testsuite>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="0" name="riot_tests" skips="0" tests="1" time="4.250"><properties><property name="RIOT_VERSION" value="2019.07-devel-249-g5bb49-HEAD"/></properties><testcase classname="b-l475e-iot01a.tests_trickle" file="tests/01-run.py" line="12" name="test.tests.01-run.testfunc" time="4.232079744338989"><system-out>ssh -t iotlab@saclay.iot-lab.info &apos;socat - tcp:st-iotnode-1.saclay.iot-lab.info:20000&apos;
+main(): This is RIOT! (Version: buildtest)
+[START]
+now = 32841, t = 29
+now = 116631, t = 69
+now = 266510, t = 133
+now = 560475, t = 257
+now = 1241440, t = 600
+[TRICKLE_RESET]
+now = 1254503, t = 11
+now = 1280468, t = 19
+now = 1339433, t = 44
+now = 1440398, t = 79
+now = 1659363, t = 168
+now = 2101415, t = 352
+now = 2804467, t = 541
+[SUCCESS]
+main(): This is RIOT! (Version: buildtest)
+[START]
+now = 25842, t = 22
+
+</system-out></testcase></testsuite>

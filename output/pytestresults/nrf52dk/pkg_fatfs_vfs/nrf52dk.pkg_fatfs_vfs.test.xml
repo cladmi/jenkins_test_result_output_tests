@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="1" name="riot_tests" skips="0" tests="1" time="14.337"><properties><property name="RIOT_VERSION" value="2019.07-devel-249-g5bb49-HEAD"/></properties><testcase classname="nrf52dk.pkg_fatfs_vfs" file="tests/01-run.py" line="16" name="test.tests.01-run.testfunc" time="14.275309324264526"><failure message="pexpect.exceptions.TIMEOUT: Tests for FatFs over VFS - test results will be printed in the format test_name:result">child = &lt;pytest_child.CustomSpawn object at 0x7f2ccc6dd198&gt;
+
+    def testfunc(child):
+    
+&gt;       child.expect(u&quot;Tests for FatFs over VFS - test results will be printed in &quot;
+                     &quot;the format test_name:result\r\n&quot;)
+
+tests/01-run.py:19: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = &lt;pytest_child.CustomSpawn object at 0x7f2ccc6dd198&gt;
+pattern = &apos;Tests for FatFs over VFS - test results will be printed in the format test_name:result\r\n&apos;
+args = (), kwargs = {}
+
+    def expect(self, pattern, *args, **kwargs):
+        # pylint:disable=arguments-differ
+        try:
+            return super().expect(pattern, *args, **kwargs)
+        except (pexpect.TIMEOUT, pexpect.EOF) as exc:
+            exc.orig_value = exc.value
+            exc.value = pattern
+&gt;           raise exc.with_traceback(None) from None
+E           pexpect.exceptions.TIMEOUT: Tests for FatFs over VFS - test results will be printed in the format test_name:result
+
+../../../iotlab-os-ci/tools/pytest/pytest_child.py:113: TIMEOUT</failure><system-out>ssh -t iotlab@saclay.iot-lab.info &apos;socat - tcp:nrf52dk-1.saclay.iot-lab.info:20000&apos;
+
+</system-out></testcase></testsuite>

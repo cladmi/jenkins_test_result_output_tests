@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="0" name="riot_tests" skips="0" tests="1" time="4.275"><properties><property name="RIOT_VERSION" value="2019.07-devel-249-g5bb49-HEAD"/></properties><testcase classname="b-l475e-iot01a.tests_bench_sizeof_coretypes" file="tests/01-run.py" line="12" name="test.tests.01-run.testfunc" time="4.255643367767334"><system-out>ssh -t iotlab@saclay.iot-lab.info &apos;socat - tcp:st-iotnode-1.saclay.iot-lab.info:20000&apos;
+{ &quot;result&quot; : 519468 }
+�ain(): This is RIOT! (Version: buildtest)
+Sizeof RIOT core types
+
+                                size
+sizeof(cib_t):                   12
+sizeof(clist_node_t):             4
+sizeof(core_panic_t):             1
+sizeof(kernel_pid_t):             2
+sizeof(list_node_t):              4
+sizeof(mbox_t):                  24
+sizeof(msg_t):                    8
+sizeof(mutex_t):                  4
+sizeof(priority_queue_main(): This is RIOT! (Version: buildtest)
+Sizeof RIOT core types
+
+                                size
+sizeof(cib_t):                   12
+sizeof(clist_node_t):             4
+sizeof(core_panic_t):             1
+sizeof(kernel_pid_t):             2
+sizeof(list_node_t):              4
+sizeof(mbox_t):                  24
+sizeof(msg_t):                    8
+sizeof(mutex_t):                  4
+sizeof(priority_queue_node_t):   12
+sizeof(priority_queue_t):         4
+sizeof(ringbuffer_t):            16
+sizeof(rmutex_t):                 8
+sizeof(thread_flags_t):           0   (not enabled)
+
+TCB (thread_t) details:         size  offset
+sizeof(thread_t):                48       -
+    tcb-&gt;sp                       4       0
+    tcb-&gt;status                   1       4
+    tcb-&gt;priority                 1       5
+    tcb-&gt;pid                      2       6
+    tcb-&gt;rq_entry                 4       8
+    tcb-&gt;wait_data                4      12
+    tcb-&gt;msg_waiters              4      16
+    tcb-&gt;msg_queue               12      20
+    tcb-&gt;msg_array                4      32
+    tcb-&gt;stack_start              4      36
+    tcb-&gt;name                     4      40
+    tcb-&gt;stack_size               4      44
+
+[SUCCESS]
+
+</system-out></testcase></testsuite>

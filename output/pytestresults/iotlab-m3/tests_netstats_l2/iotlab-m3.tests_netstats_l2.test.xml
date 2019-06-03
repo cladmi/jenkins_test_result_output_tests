@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="0" name="riot_tests" skips="0" tests="1" time="5.440"><properties><property name="RIOT_VERSION" value="2019.07-devel-249-g5bb49-HEAD"/></properties><testcase classname="iotlab-m3.tests_netstats_l2" file="tests/01-run.py" line="13" name="test.tests.01-run.testfunc" time="5.4068443775177"><system-out>ifconfig
+ssh -t iotlab@saclay.iot-lab.info &apos;socat - tcp:m3-1.saclay.iot-lab.info:20000&apos;
+�main(): This is RIOT! (Version: buildtest)
+Welcome to RIOT!
+&gt; �main(): This is RIOT! (Version: buildtest)
+Welcome to RIOT!
+&gt; ifconfig
+Iface  3  HWaddr: 8F:32  Channel: 26  Page: 0  NID: 0x23
+          Long HWaddr: 15:11:6B:10:65:F7:8F:32 
+           TX-Power: 0dBm  State: IDLE  max. Retrans.: 3  CSMA Retries: 4 
+          AUTOACK  ACK_REQ  CSMA  L2-PDU:102 Source address length: 2
+          
+          Statistics for Layer 2
+            RX packets 0  bytes 0
+            TX packets 0 (Multicast: 0)  bytes 0
+            TX succeeded 0 errors 0
+
+&gt; 
+</system-out></testcase></testsuite>
