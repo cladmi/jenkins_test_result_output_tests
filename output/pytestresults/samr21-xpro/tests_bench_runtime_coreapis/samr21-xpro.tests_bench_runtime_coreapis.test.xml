@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="0" name="samr21-xpro" skips="0" tests="1" time="25.861"><properties><property name="RIOT_VERSION" value="2019.07-devel-249-g5bb49-HEAD"/></properties><testcase classname="samr21-xpro.tests_bench_runtime_coreapis" file="tests/01-run.py" line="17" name="test.tests.01-run.testfunc" time="25.842659950256348"><system-out>ssh -t iotlab@saclay.iot-lab.info &apos;socat - tcp:samr21-1.saclay.iot-lab.info:20000&apos;
+<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="0" name="samr21-xpro.tests_bench_runtime_coreapis" skips="0" tests="1" time="25.861"><properties><property name="RIOT_VERSION" value="2019.07-devel-249-g5bb49-HEAD"/></properties><testcase classname="samr21-xpro.tests_bench_runtime_coreapis" file="tests/01-run.py" line="17" name="test.tests.01-run.testfunc" time="25.842659950256348"><system-out>ssh -t iotlab@saclay.iot-lab.info &apos;socat - tcp:samr21-1.saclay.iot-lab.info:20000&apos;
         mutex lock/unlock:   2500007us  ---   2.500us per call  ---     399998 calls per sec
 
        thread_flags_set():   1479174us  ---   1.479us per call  ---     676052 calls per sec

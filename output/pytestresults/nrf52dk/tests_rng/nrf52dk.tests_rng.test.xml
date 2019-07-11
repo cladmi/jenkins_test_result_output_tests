@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="0" name="nrf52dk" skips="0" tests="1" time="5.420"><properties><property name="RIOT_VERSION" value="2019.07-devel-249-g5bb49-HEAD"/></properties><testcase classname="nrf52dk.tests_rng" file="tests/01-run.py" line="13" name="test.tests.01-run.testfunc" time="5.403300046920776"><system-out>source 0
+<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="0" name="nrf52dk.tests_rng" skips="0" tests="1" time="5.420"><properties><property name="RIOT_VERSION" value="2019.07-devel-249-g5bb49-HEAD"/></properties><testcase classname="nrf52dk.tests_rng" file="tests/01-run.py" line="13" name="test.tests.01-run.testfunc" time="5.403300046920776"><system-out>source 0
 seed 1337
 fips
 ssh -t iotlab@saclay.iot-lab.info &apos;socat - tcp:nrf52dk-1.saclay.iot-lab.info:20000&apos;
