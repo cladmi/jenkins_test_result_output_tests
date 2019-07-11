@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="0" name="samr21-xpro.tests_pkg_ubasic" skips="0" tests="1" time="74.712"><properties><property name="RIOT_VERSION" value="2019.07-devel-249-g5bb49-HEAD"/></properties><testcase classname="samr21-xpro.tests_pkg_ubasic" file="tests/01-run.py" line="12" name="test.tests.01-run.testfunc" time="74.69424748420715"><system-out>ssh -t iotlab@saclay.iot-lab.info &apos;socat - tcp:samr21-1.saclay.iot-lab.info:20000&apos;
+<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="0" name="samr21-xpro" skips="0" tests="1" time="74.712"><properties><property name="RIOT_VERSION" value="2019.07-devel-249-g5bb49-HEAD"/></properties><testcase classname="samr21-xpro.tests_pkg_ubasic" file="tests/01-run.py" line="12" name="test.tests.01-run.testfunc" time="74.69424748420715"><system-out>ssh -t iotlab@saclay.iot-lab.info &apos;socat - tcp:samr21-1.saclay.iot-lab.info:20000&apos;
 main(): This is RIOT! (Version: buildtest)
 Running test #1... done. Run time:  s
 Running test #2... done. Run time:  s

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="0" name="b-l475e-iot01a.tests_pthread_cooperation" skips="0" tests="1" time="4.354"><properties><property name="RIOT_VERSION" value="2019.07-devel-249-g5bb49-HEAD"/></properties><testcase classname="b-l475e-iot01a.tests_pthread_cooperation" file="tests/01-run.py" line="6" name="test.tests.01-run.testfunc" time="4.337618589401245"><system-out>ssh -t iotlab@saclay.iot-lab.info &apos;socat - tcp:st-iotnode-1.saclay.iot-lab.info:20000&apos;
+<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="0" name="b-l475e-iot01a" skips="0" tests="1" time="4.354"><properties><property name="RIOT_VERSION" value="2019.07-devel-249-g5bb49-HEAD"/></properties><testcase classname="b-l475e-iot01a.tests_pthread_cooperation" file="tests/01-run.py" line="6" name="test.tests.01-run.testfunc" time="4.337618589401245"><system-out>ssh -t iotlab@saclay.iot-lab.info &apos;socat - tcp:st-iotnode-1.saclay.iot-lab.info:20000&apos;
 Still alive alternated [count: 600k] times.
 main(): This is RIOT! (Version: buildtest)
 START

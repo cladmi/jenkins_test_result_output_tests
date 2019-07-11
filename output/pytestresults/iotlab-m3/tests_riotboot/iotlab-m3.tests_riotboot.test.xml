@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="1" name="iotlab-m3.tests_riotboot" skips="0" tests="1" time="15.460"><properties><property name="RIOT_VERSION" value="2019.07-devel-249-g5bb49-HEAD"/></properties><testcase classname="iotlab-m3.tests_riotboot" file="tests/01-run.py" line="12" name="test.tests.01-run.testfunc" time="15.393113374710083"><failure message="pexpect.exceptions.TIMEOUT: Current slot=[0-1]">child = &lt;pytest_child.CustomSpawn object at 0x7f91206d7ba8&gt;
+<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="1" name="iotlab-m3" skips="0" tests="1" time="15.460"><properties><property name="RIOT_VERSION" value="2019.07-devel-249-g5bb49-HEAD"/></properties><testcase classname="iotlab-m3.tests_riotboot" file="tests/01-run.py" line="12" name="test.tests.01-run.testfunc" time="15.393113374710083"><failure message="pexpect.exceptions.TIMEOUT: Current slot=[0-1]">child = &lt;pytest_child.CustomSpawn object at 0x7f91206d7ba8&gt;
 
     def testfunc(child):
         # Ask for current slot, should be 0 or 1
